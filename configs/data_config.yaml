@@ -1,0 +1,39 @@
+# ===== Đường dẫn (tương đối so với thư mục gốc scam-detection-project/) =====
+paths:
+  raw_smishtank_dir: data/raw/smishtank
+  raw_mishra_soni_dir: data/raw/mishra_soni
+  interim_merged: data/interim/merged.csv
+  interim_cleaned: data/interim/cleaned.csv
+  processed_phishing_dir: data/processed/phishing_detection
+
+# ===== Cấu hình cho merge_labels.py (điền theo output inspect_raw.py) =====
+merge:
+  smishtank:
+    file_name: smishtank.csv
+    read_kwargs: {encoding: latin-1}   # utf-8 đọc lỗi
+    # MainText = nội dung tin nhắn; Fulltext có thêm header ảnh chụp
+    # (số điện thoại, ngày giờ "Text Message\nThu, Jul 29...") -> không dùng
+    text_column: MainText
+    # SmishTank chỉ chứa smishing -> mọi dòng được gán nhãn "smishing"
+
+  mishra_soni:
+    file_name: mishra_soni.csv
+    read_kwargs: {encoding: utf-8}
+    text_column: TEXT
+    label_column: LABEL
+    label_values:            # file gốc viết hoa/thường không đồng nhất
+      ham: [ham]
+      spam: [spam, Spam]
+      smishing: [Smishing, smishing]
+
+# ===== Cấu hình cho clean_text.py =====
+clean:
+  drop_labels: [spam]   # phương án (a): loại nhãn mơ hồ của Mishra & Soni
+
+# ===== Cấu hình cho split_data.py =====
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42
+  stratify_columns: [label_binary, source]   # giữ tỉ lệ nhãn và nguồn ở cả 3 tập

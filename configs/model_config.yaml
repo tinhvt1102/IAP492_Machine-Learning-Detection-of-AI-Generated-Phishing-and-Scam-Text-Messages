@@ -1,0 +1,30 @@
+# ===== Đường dẫn (tương đối so với thư mục gốc scam-detection-project/) =====
+paths:
+  processed_phishing_dir: data/processed/phishing_detection   # train/val/test.csv
+  baseline_dir: models/baseline                               # vectorizer + ma trận TF-IDF + model baseline
+  metrics_dir: results/metrics                                # kết quả dò tham số trên val
+
+# ===== Cấu hình cho tfidf_vectorizer.py (nhóm đã chốt) =====
+tfidf:
+  text_column: text
+  label_column: label_binary
+  lowercase: true
+  analyzer: word          # đổi thành char_wb nếu làm ablation n-gram ký tự
+  ngram_range: [1, 2]
+  min_df: 2
+  max_features: null      # null = không giới hạn
+  sublinear_tf: true
+
+# ===== Cấu hình cho train_lr.py (nhóm đã chốt) =====
+lr:
+  C_grid: [0.01, 0.1, 1, 10, 100, 1000]   # dò trên val, chọn theo F1
+  selection_tolerance: 0.005        # chọn C NHỎ NHẤT có F1 >= F1_max - tolerance
+  class_weight: balanced            # phạt nặng hơn khi bỏ sót tin lừa đảo
+  max_iter: 1000
+  random_seed: 42
+
+# ===== Cấu hình cho train_mnb.py (nhóm đã chốt) =====
+mnb:
+  alpha_grid: [0.01, 0.1, 1, 10, 100]   # dò trên val, chọn theo F1
+  selection_tolerance: 0.005            # chọn alpha có F1 >= F1_max - tolerance (xem train_mnb.py)
+  class_weight: balanced                # MNB không có class_weight -> dùng sample_weight tương đương

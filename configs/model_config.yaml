@@ -1,30 +1,47 @@
-# ===== Đường dẫn (tương đối so với thư mục gốc scam-detection-project/) =====
 paths:
-  processed_phishing_dir: data/processed/phishing_detection   # train/val/test.csv
-  baseline_dir: models/baseline                               # vectorizer + ma trận TF-IDF + model baseline
-  metrics_dir: results/metrics                                # kết quả dò tham số trên val
+  processed_phishing_dir: data/processed/phishing_detection
+  baseline_dir: models/baseline
+  metrics_dir: results/metrics
+  roberta_dir: models/roberta
+  deberta_dir: models/deberta
 
-# ===== Cấu hình cho tfidf_vectorizer.py (nhóm đã chốt) =====
 tfidf:
   text_column: text
   label_column: label_binary
   lowercase: true
-  analyzer: word          # đổi thành char_wb nếu làm ablation n-gram ký tự
+  analyzer: word
   ngram_range: [1, 2]
   min_df: 2
-  max_features: null      # null = không giới hạn
+  max_features: null
   sublinear_tf: true
 
-# ===== Cấu hình cho train_lr.py (nhóm đã chốt) =====
 lr:
-  C_grid: [0.01, 0.1, 1, 10, 100, 1000]   # dò trên val, chọn theo F1
-  selection_tolerance: 0.005        # chọn C NHỎ NHẤT có F1 >= F1_max - tolerance
-  class_weight: balanced            # phạt nặng hơn khi bỏ sót tin lừa đảo
+  C_grid: [0.01, 0.1, 1, 10, 100, 1000]
+  selection_tolerance: 0.005
+  class_weight: balanced
   max_iter: 1000
   random_seed: 42
 
-# ===== Cấu hình cho train_mnb.py (nhóm đã chốt) =====
 mnb:
-  alpha_grid: [0.01, 0.1, 1, 10, 100]   # dò trên val, chọn theo F1
-  selection_tolerance: 0.005            # chọn alpha có F1 >= F1_max - tolerance (xem train_mnb.py)
-  class_weight: balanced                # MNB không có class_weight -> dùng sample_weight tương đương
+  alpha_grid: [0.01, 0.1, 1, 10, 100]
+  selection_tolerance: 0.005
+  class_weight: balanced
+
+# Dùng chung cho RoBERTa và DeBERTa (các số dưới đây là giá trị mặc định phổ biến, CHƯA tinh chỉnh)
+transformer:
+  text_column: text
+  label_column: label_binary
+  max_length: 128          # đã chốt: cắt <1% tin trên train (đo bằng measure_token_length.py)
+  epochs: 3
+  batch_size: 16
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  fp16: true               # GPU T4 của Kaggle; nếu loss thành NaN (hay gặp với DeBERTa) thì đổi false
+  seed: 42
+
+roberta:
+  model_name: roberta-base
+deberta:
+  model_name: microsoft/deberta-v3-base

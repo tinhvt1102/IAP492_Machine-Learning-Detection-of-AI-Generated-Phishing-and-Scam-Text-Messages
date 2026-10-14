@@ -1,89 +1,126 @@
+"""split_data.py - Chia train/val/test THEO NHÓM (tin cùng "khuôn" không nằm ở 2 tập khác nhau).
+
+Input : data/interim/cleaned.csv (output của balance_data.py)
+Output: data/processed/phishing_detection/{train,val,test}.csv
+Khuôn của tin = viết thường, bỏ placeholder (<URL>...), bỏ chữ số và dấu câu, gộp khoảng trắng.
+Các tin cùng khuôn = 1 nhóm; mỗi nhóm được xếp nguyên vào 1 tập.
+Cân theo (label_binary, source) theo cách xấp xỉ (greedy), seed cố định.
 """
-split_data.py
-Nhiệm vụ DUY NHẤT: chia data/interim/cleaned.csv thành train/val/test
--> data/processed/phishing_detection/{train,val,test}.csv
-
-- Tỉ lệ, seed, cột stratify đọc từ configs/data_config.yaml (mục `split`).
-- Stratify theo tổ hợp (label_binary, source) để tỉ lệ nhãn và nguồn
-  giống nhau ở cả 3 tập (cần cho việc báo cáo metric tách theo nguồn).
-- KHÔNG làm sạch thêm, KHÔNG biến đổi text.
-
-Chạy từ thư mục gốc project:
-    python src/data/split_data.py --config configs/data_config.yaml
-"""
-
 import argparse
-import logging
+import re
 from pathlib import Path
 
+import numpy as np
 import pandas as pd
 import yaml
-from sklearn.model_selection import train_test_split
 
-logging.basicConfig(level=logging.INFO, format="[%(levelname)s] %(message)s")
-log = logging.getLogger(__name__)
-
-
-def summarize(name: str, df: pd.DataFrame) -> None:
-    """In số bản ghi và phân bố (source, label) của một tập."""
-    dist = df.groupby(["source", "label_binary"]).size().to_dict()
-    pos = df["label_binary"].mean() * 100
-    log.info("%-5s: %5d bản ghi | %%label=1: %.1f%% | %s", name, len(df), pos, dist)
+PLACEHOLDER_RE = re.compile(r"<[A-Za-z_]+>")
+NON_ALPHA_RE = re.compile(r"[^a-z\s]")  # sau khi bỏ placeholder: bỏ số và dấu câu, chỉ giữ chữ cái
+WS_RE = re.compile(r"\s+")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser(description="Chia cleaned.csv -> train/val/test")
-    parser.add_argument("--config", default="configs/data_config.yaml")
-    parser.add_argument("--input", default=None, help="Ghi đè đường dẫn input")
-    parser.add_argument("--output_dir", default=None, help="Ghi đè thư mục output")
-    args = parser.parse_args()
+def load_config(path):
+    with open(path, encoding="utf-8") as f:
+        return yaml.safe_load(f)
 
-    with open(args.config, "r", encoding="utf-8") as f:
-        cfg = yaml.safe_load(f)
+
+def template_of(text):
+    """Khuôn của tin: bỏ khác biệt về hoa/thường, placeholder, chữ số, dấu câu, khoảng trắng."""
+    t = PLACEHOLDER_RE.sub(" ", text.lower())
+    return WS_RE.sub(" ", NON_ALPHA_RE.sub(" ", t)).strip()
+
+
+def assign_groups(df, split_names, ratios, strata_cols, seed):
+    """Xếp từng nhóm vào 1 tập sao cho tỉ lệ từng stratum gần mục tiêu nhất."""
+    df = df.copy()
+    df["_tpl"] = df["text"].map(template_of)
+    df["_gid"] = pd.factorize(df["_tpl"])[0]
+    df["_stratum"] = df[strata_cols].astype(str).agg("|".join, axis=1)
+    strata = sorted(df["_stratum"].unique())
+    s_idx = {s: i for i, s in enumerate(strata)}
+
+    # Vector đếm stratum của từng nhóm
+    gcount = {}
+    for gid, st in zip(df["_gid"], df["_stratum"]):
+        gcount.setdefault(gid, np.zeros(len(strata)))[s_idx[st]] += 1
+    gids = list(gcount)
+
+    rng = np.random.RandomState(seed)
+    rng.shuffle(gids)                       # xáo trước để phá thế hoà
+    gids.sort(key=lambda g: -gcount[g].sum())  # nhóm to xếp trước (ổn định nên giữ thứ tự xáo khi bằng nhau)
+
+    total = np.sum(list(gcount.values()), axis=0)
+    target = {n: total * r for n, r in zip(split_names, ratios)}
+    cur = {n: np.zeros(len(strata)) for n in split_names}
+    owner = {}
+    for g in gids:
+        best, best_cost = None, None
+        for n in split_names:
+            new = cur[n] + gcount[g]
+            # chi phí = mức THAY ĐỔI độ lệch bình phương so với mục tiêu (âm = tiến gần mục tiêu hơn),
+            # chuẩn hoá theo cỡ stratum -> nhóm được xếp vào tập còn "thiếu" nhiều nhất
+            cost = float(np.sum(((new - target[n]) ** 2 - (cur[n] - target[n]) ** 2) / np.maximum(total, 1)))
+            if best_cost is None or cost < best_cost:
+                best, best_cost = n, cost
+        owner[g] = best
+        cur[best] += gcount[g]
+    df["_split"] = df["_gid"].map(owner)
+    return df
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument("--config", required=True)
+    args = ap.parse_args()
+    cfg = load_config(args.config)
     scfg = cfg["split"]
-    in_path = Path(args.input or cfg["paths"]["interim_cleaned"])
-    out_dir = Path(args.output_dir or cfg["paths"]["processed_phishing_dir"])
+    in_path = Path(cfg["paths"]["interim_cleaned"])
+    out_dir = Path(cfg["paths"]["processed_phishing_dir"])
+    if "raw" in out_dir.parts:
+        raise ValueError("Không được ghi output vào thư mục raw")
 
-    # Kiểm tra tỉ lệ hợp lệ (tổng = 1)
-    ratios = (scfg["train_ratio"], scfg["val_ratio"], scfg["test_ratio"])
-    if abs(sum(ratios) - 1.0) > 1e-6:
-        raise ValueError(f"Tổng tỉ lệ phải bằng 1, đang là {sum(ratios)}")
+    ratios = [scfg["train_ratio"], scfg["val_ratio"], scfg["test_ratio"]]
+    if abs(sum(ratios) - 1) > 1e-9:
+        raise ValueError(f"Tổng tỉ lệ phải bằng 1, hiện là {sum(ratios)}")
 
-    # Bước 1: đọc dữ liệu đã làm sạch
-    df = pd.read_csv(in_path, dtype={"text": str}, keep_default_na=False)
-    log.info("Đọc %d bản ghi từ %s", len(df), in_path)
+    df = pd.read_csv(in_path, keep_default_na=False, na_values=[""], dtype={"scam_type": "string"})
+    print(f"[INFO] Đọc {len(df)} bản ghi từ {in_path}")
 
-    # Bước 2: tạo khoá stratify từ tổ hợp các cột (vd "1|smishtank")
-    strat_key = df[scfg["stratify_columns"]].astype(str).agg("|".join, axis=1)
+    names = ["train", "val", "test"]
+    df = assign_groups(df, names, ratios, scfg["stratify_columns"], scfg["random_seed"])
+    n_groups = df["_gid"].nunique()
+    sizes = df.groupby("_gid").size().sort_values(ascending=False)
+    print(f"[INFO] Số nhóm (khuôn): {n_groups} / {len(df)} tin; nhóm lớn nhất: {sizes.head(5).tolist()}")
 
-    # Bước 3: tách test ra trước
-    trainval, test = train_test_split(
-        df, test_size=scfg["test_ratio"], stratify=strat_key,
-        random_state=scfg["random_seed"])
+    parts = {n: df[df["_split"] == n] for n in names}
 
-    # Bước 4: tách val từ phần còn lại.
-    # val_ratio tính trên toàn bộ dữ liệu -> quy đổi sang tỉ lệ trên phần trainval
-    val_size = scfg["val_ratio"] / (scfg["train_ratio"] + scfg["val_ratio"])
-    train, val = train_test_split(
-        trainval, test_size=val_size, stratify=strat_key.loc[trainval.index],
-        random_state=scfg["random_seed"])
+    # Kiểm tra không rò rỉ: không text và không nhóm nào nằm ở 2 tập
+    for i, a in enumerate(names):
+        for b in names[i + 1:]:
+            if set(parts[a]["text"]) & set(parts[b]["text"]):
+                raise ValueError(f"Có text nằm ở cả {a} và {b}")
+            if set(parts[a]["_gid"]) & set(parts[b]["_gid"]):
+                raise ValueError(f"Có nhóm nằm ở cả {a} và {b}")
 
-    # Bước 5: kiểm tra không có text nào nằm ở 2 tập (chống rò rỉ dữ liệu)
-    sets = {"train": set(train["text"]), "val": set(val["text"]), "test": set(test["text"])}
-    for a, b in [("train", "val"), ("train", "test"), ("val", "test")]:
-        overlap = len(sets[a] & sets[b])
-        if overlap:
-            raise ValueError(f"Rò rỉ: {overlap} text trùng giữa {a} và {b}")
-
-    # Bước 6: ghi file và log phân bố
     out_dir.mkdir(parents=True, exist_ok=True)
-    for name, part in [("train", train), ("val", val), ("test", test)]:
-        path = out_dir / f"{name}.csv"
-        part.to_csv(path, index=False, encoding="utf-8")
-        summarize(name, part)
-        log.info("       -> %s", path)
-    log.info("Tổng: %d bản ghi (khớp input: %s)",
-             len(train) + len(val) + len(test), len(train) + len(val) + len(test) == len(df))
+    keep = ["text", "label_binary", "source", "scam_type"]
+    for n in names:
+        p = out_dir / f"{n}.csv"
+        parts[n][keep].sample(frac=1, random_state=scfg["random_seed"]).to_csv(p, index=False, encoding="utf-8")
+        print(f"[INFO] Ghi {len(parts[n])} bản ghi -> {p}")
+
+    # Thống kê từng tập
+    rows = []
+    for n in names:
+        p = parts[n]
+        rows.append({
+            "tap": n, "so_tin": len(p), "ti_le": round(len(p) / len(df), 3),
+            "%label1": round(100 * p["label_binary"].mean(), 1),
+            "mishra_0": int(((p.source == "mishra_soni") & (p.label_binary == 0)).sum()),
+            "mishra_1": int(((p.source == "mishra_soni") & (p.label_binary == 1)).sum()),
+            "imc25_1": int(((p.source == "imc25") & (p.label_binary == 1)).sum()),
+        })
+    print(pd.DataFrame(rows).to_string(index=False))
 
 
 if __name__ == "__main__":

@@ -1,39 +1,50 @@
-# ===== Đường dẫn (tương đối so với thư mục gốc scam-detection-project/) =====
+# Cấu hình dữ liệu RQ1 (bản dùng IMC25 + Mishra & Soni; đã bỏ SmishTank)
 paths:
-  raw_smishtank_dir: data/raw/smishtank
+  raw_imc25_dir: data/raw/imc25
   raw_mishra_soni_dir: data/raw/mishra_soni
   interim_merged: data/interim/merged.csv
-  interim_cleaned: data/interim/cleaned.csv
+  interim_cleaned_full: data/interim/cleaned_full.csv   # output của clean_text.py (chưa cân bằng)
+  interim_cleaned: data/interim/cleaned.csv             # output của balance_data.py = input của split_data.py
   processed_phishing_dir: data/processed/phishing_detection
 
-# ===== Cấu hình cho merge_labels.py (điền theo output inspect_raw.py) =====
 merge:
-  smishtank:
-    file_name: smishtank.csv
-    read_kwargs: {encoding: latin-1}   # utf-8 đọc lỗi
-    # MainText = nội dung tin nhắn; Fulltext có thêm header ảnh chụp
-    # (số điện thoại, ngày giờ "Text Message\nThu, Jul 29...") -> không dùng
-    text_column: MainText
-    # SmishTank chỉ chứa smishing -> mọi dòng được gán nhãn "smishing"
-
+  imc25:
+    file_name: Smishing-Dataset-IMC25.csv
+    read_kwargs: {encoding: utf-8}
+    text_column: text
+    fixed_label: smishing            # IMC25 không có ham: mọi dòng giữ lại đều là lừa đảo
+    include: {language: [English]}   # chỉ giữ tiếng Anh
+    exclude: {scam_type: [spam, wrong number]}
+    extra_column: scam_type          # giữ lại để lấy mẫu phân tầng
   mishra_soni:
     file_name: mishra_soni.csv
     read_kwargs: {encoding: utf-8}
     text_column: TEXT
     label_column: LABEL
-    label_values:            # file gốc viết hoa/thường không đồng nhất
+    label_values:
       ham: [ham]
       spam: [spam, Spam]
       smishing: [Smishing, smishing]
 
-# ===== Cấu hình cho clean_text.py =====
 clean:
-  drop_labels: [spam]   # phương án (a): loại nhãn mơ hồ của Mishra & Soni
+  drop_labels: [spam]                # spam của Mishra & Soni (IMC25 đã loại spam ở bước merge)
+  # Chuẩn hoá thực thể cho cả 2 nguồn về cùng bộ placeholder
+  placeholders:
+    url: "<URL>"
+    email: "<EMAIL_ADDRESS>"
+    phone: "<PHONE_NUMBER>"
+  # True: xoá các placeholder chỉ có ở IMC25 (<DATE_TIME>, <NAMED_ENTITY>, ...) để 2 nguồn đồng nhất
+  drop_other_placeholders: true
 
-# ===== Cấu hình cho split_data.py =====
+balance:
+  subsample_source: imc25            # nguồn nhãn 1 được lấy mẫu
+  stratify_by: scam_type             # giữ tỉ lệ scam_type khi lấy mẫu
+  target_ratio_label1: 1.0           # số nhãn 1 / số nhãn 0 (1.0 = 50/50)
+  random_seed: 42
+
 split:
   train_ratio: 0.70
   val_ratio: 0.15
   test_ratio: 0.15
   random_seed: 42
-  stratify_columns: [label_binary, source]   # giữ tỉ lệ nhãn và nguồn ở cả 3 tập
+  stratify_columns: [label_binary, source]

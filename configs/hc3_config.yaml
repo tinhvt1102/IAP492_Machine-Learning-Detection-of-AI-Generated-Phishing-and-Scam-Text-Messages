@@ -1,0 +1,55 @@
+# Config cho RQ2 (HC3: người viết = 0, ChatGPT viết = 1). Độc lập với RQ1, KHÔNG dùng chung file config.
+paths:
+  raw_hc3: data/raw/hc3/HC3.jsonl          # chỉ đọc
+  processed_hc3_dir: data/processed/hc3
+  processed_phishing_dir: data/processed/hc3   # tên khoá bắt buộc của transformer_trainer.py (dùng lại nguyên file); ở đây là dữ liệu HC3
+  metrics_dir: results/metrics
+  hc3_roberta_dir: models/hc3_roberta
+
+data:
+  tokenizer_name: roberta-base             # chỉ dùng để đo độ dài token khi thống kê
+
+clean:
+  seed: 42
+  n_error_examples: 10                     # số ví dụ ngẫu nhiên in ra để kiểm tra quy tắc lọc lỗi
+  n_quote_examples: 6                      # số ví dụ trước/sau in ra để kiểm tra quy tắc ghép cặp nháy
+  # Câu trả lời khớp BẤT KỲ mẫu nào (regex, re.search) bị bỏ: thông báo lỗi / giao diện ChatGPT, không phải câu trả lời
+  error_patterns:
+    - "There was an error generating a response"
+    - "Too many requests in 1 hour"
+    - "Your authentication token has expired"
+    - "Only one message at a time"
+    - "ChatGPT Dec 15 Version"
+    - "^[!\\s]*(?:\\\\n)*\\s*network error\\s*$"   # câu trả lời chỉ có "network error"
+
+# ĐỀ XUẤT 70/15/15, nhóm CHƯA chốt
+split:
+  train_ratio: 0.70
+  val_ratio: 0.15
+  test_ratio: 0.15
+  random_seed: 42
+  stratify_columns: [source, label_binary]
+  write_files: true                        # đã được người dùng cho phép ghi (quy tắc vẫn là đề xuất, nhóm chưa chốt)
+  max_length_candidates: [128, 256, 512]
+
+# Đọc bởi transformer_trainer.py. Giữ GIỐNG mục transformer của RQ1 (configs/model_config.yaml): CHƯA tinh chỉnh (not tuned)
+transformer:
+  text_column: text
+  label_column: label_binary
+  max_length: 512          # người dùng chọn: train cắt ~2% mẫu (xem log prepare_hc3.py)
+  epochs: 3                # not tuned
+  batch_size: 16           # not tuned
+  learning_rate: 2.0e-5    # not tuned
+  weight_decay: 0.01       # not tuned
+  warmup_ratio: 0.1        # not tuned
+  max_grad_norm: 1.0       # not tuned
+  fp16: true               # GPU T4 của Kaggle; nếu loss thành NaN thì đổi false
+  seed: 42
+
+hc3_roberta:
+  model_name: roberta-base
+
+evaluate:
+  n_bootstrap: 1000        # giống bootstrap_f1_ci của RQ1
+  bootstrap_seed: 42
+  length_baseline_seed: 42

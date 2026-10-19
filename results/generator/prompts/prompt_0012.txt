@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 42 DIFFERENT English SMS messages of this phishing/scam type: prize (lottery or prize wins, gift cards, free holidays or phones, survey rewards, premium-rate claim lines).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Mila, age23, blonde, new in UK. I look sex with UK guys. if u like fun with me. Text MTALK to 69866.18 . 30pp/txt 1st 5free. £1.50 increments. Help08718728876
+- Urgent Message for CIBC Account Holder, Kindly Login to our secure server to check your information <URL> <URL> Support
+- Congrats! 2 mobile 3G Videophones R yours. call <PHONE_NUMBER> now! videochat wid your mates, play java games, Dload polyPH music, noline rentl.
+- Natalie (20/F) is inviting you to be her friend. Reply YES-165 or NO-165 See her: <URL>
+- RMO.00 R.HB: RM4388.00 Was Charged On Your Card Numer 9577 at AwG-KLIA2 On 24/10/16 1032:29 Reference Code 342152 Call <PHONE_NUMBER> if u did NOT perform this Txn
+Output format: a JSON array of 42 strings and nothing else.

@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 45 DIFFERENT English SMS messages of this phishing/scam type: banking (bank or credit card account alerts, suspicious login, blocked card, payment declined, identity verification).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Your registered mobile number needs to be updated. Please update here: <URL> to continue receiving One-Time PIN
+- Dear SBI user your SBI YONO account has been blocked please unlock your PAN CARD click here to login your PAN number: <URL>
+- Hi We received a request asking for changes to your self-managed super fund (SMSF) THE TRUSTEE FOR SUPERANNUATION FUND. Based on this, we have made changes to your SMSF account. If you know about these changes, you don't need to do anything else. If you want more information, visit
+- Dear SBI user your SBI YONO A/c has been blocked. please update your PAN CARD click here to login your net banking update your PAN no <URL>
+- HSBC ALERT: Request for NEW payee has been made on your account. If this was NOT done BY you, visit:
+Output format: a JSON array of 45 strings and nothing else.

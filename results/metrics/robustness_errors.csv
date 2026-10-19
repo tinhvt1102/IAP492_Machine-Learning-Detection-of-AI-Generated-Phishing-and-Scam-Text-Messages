@@ -1,0 +1,48 @@
+text,label_binary,source,scam_type,pred_LR,pred_MNB,pred_RoBERTa,pred_DeBERTa
+Hi! I am financial advisor Mark from Apex Investments. I have a guaranteed Bitcoin mining opportunity that yields daily payouts. Message me back to get started.,1,ai_gemini,others,0,0,1,1
+Invest just $100 in our new green energy token and watch your portfolio grow exponentially next month. Join the presale at <URL>,1,ai_gemini,others,1,0,1,1
+"Hey Mum, dropped my phone in a puddle and it's totally dead. Using Sarah's device for now. Can you save my new number <PHONE_NUMBER> and text me back?",1,ai_gemini,family_impersonation,1,0,1,1
+"Dad, I lost my wallet and my phone won't turn on. I'm stuck stranded at the station. Could you wire me fifty bucks via this link <URL> right away?",1,ai_gemini,family_impersonation,1,0,1,1
+"Hi Dad, it's Leo. My old phone broke this morning. Please delete my previous number and save this one. Need a quick favor when you're free.",1,ai_gemini,family_impersonation,0,0,1,1
+"Hello mother, my phone screen shattered completely and it won't charge. This is my friend's spare phone. Please text me on <PHONE_NUMBER>.",1,ai_gemini,family_impersonation,1,0,1,1
+"Dad, I'm in a bit of a tight spot. My online banking is locked and my phone is broken. Can you send 200 to my friend's account? Details at <URL>.",1,ai_gemini,family_impersonation,1,0,1,1
+"Mum, smashed my phone screen and the battery is dying fast. Please message my new number <PHONE_NUMBER> so we can keep talking.",1,ai_gemini,family_impersonation,1,0,1,1
+"Hey Mum, lost my phone on the bus ride home. Using a borrowed device. Please shoot me a message on <PHONE_NUMBER> when you see this.",1,ai_gemini,family_impersonation,1,0,1,1
+Dad it's me. My phone died and I have no charger. I need to pay for my train ticket home. Can you send me some money via <URL>?,1,ai_gemini,family_impersonation,0,0,1,1
+Mum! My phone fell out of my pocket and got run over by a car. I am so stressed. Text my new number <PHONE_NUMBER> right now please.,1,ai_gemini,family_impersonation,0,0,1,1
+"Hi Dad, Luke here. Had an accident and my phone is smashed to pieces. Reach me on <PHONE_NUMBER> from now on.",1,ai_gemini,family_impersonation,1,0,1,1
+"Dad, my phone broke down and I'm stranded without cash for my hotel. Can you please transfer some funds using <URL>?",1,ai_gemini,family_impersonation,1,0,1,1
+Dad it's Sam. My phone is completely dead and I missed my flight. Can you help me cover a new ticket? Check <URL> for payment info.,1,ai_gemini,family_impersonation,1,0,1,1
+"Mum, my phone was stolen out of my bag. This is my new temporary number <PHONE_NUMBER>. Please let dad know too.",1,ai_gemini,family_impersonation,1,0,1,1
+"Hi Mum, I dropped my phone down the elevator shaft. Total disaster! Save my new number <PHONE_NUMBER> and send me a quick text.",1,ai_gemini,family_impersonation,1,0,1,1
+"Hey dad, phone is busted. Can you send me some grocery money via <URL> today? Thanks so much.",1,ai_gemini,family_impersonation,0,0,1,1
+"Mum it's me, my phone died and I am locked out of my house. Text my new number <PHONE_NUMBER> so I can call you.",1,ai_gemini,family_impersonation,0,0,1,1
+"Dad, my phone broke at work. Please update my contact info to <PHONE_NUMBER> and delete the old one.",1,ai_gemini,family_impersonation,1,0,1,1
+"Mum, my phone battery died and I forgot my charger. Messaging from a mate's phone. Text <PHONE_NUMBER> back.",1,ai_gemini,family_impersonation,1,0,1,1
+"Hello dad, my phone screen shattered and it's totally unresponsive. Please message me on <PHONE_NUMBER>.",1,ai_gemini,family_impersonation,1,0,1,1
+"Dad, my phone is dead and I urgently need to pay my rent deposit. Can you send it through <URL>?",1,ai_gemini,family_impersonation,0,0,1,1
+"Mum, phone got crushed in my gym locker. Such a nightmare. Save my new number <PHONE_NUMBER> right away.",1,ai_gemini,family_impersonation,0,0,1,1
+Check out this menu <URL> when you get a chance and let me know what looks good to you.,0,ai_gemini,ham_personal,0,0,1,1
+"Just got off the phone with <PHONE_NUMBER> and they are running late too, so we're all good.",0,ai_gemini,ham_personal,0,0,1,0
+Please put a load of towels in the wash before you leave.,0,ai_gemini,ham_personal,1,0,0,0
+We need to schedule the annual chimney sweep before winter hits.,0,ai_gemini,ham_personal,0,1,0,0
+Can you check the mail today? I'm expecting a package.,0,ai_gemini,ham_personal,0,1,0,0
+"The internet router is acting up again, did you restart it?",0,ai_gemini,ham_personal,0,0,1,1
+Did you remember to charge your phone before we left?,0,ai_gemini,ham_personal,1,0,0,0
+Do you have the link for today's virtual lecture? Blackboard is acting up again.,0,ai_gemini,ham_personal,0,0,1,1
+Check out this cool local art fair downtown <URL>,0,ai_gemini,ham_personal,1,0,1,1
+"Did the package we were expecting arrive yet, or is it still out for delivery?",0,ai_gemini,ham_personal,0,0,0,1
+Checking the radar and it looks like a massive storm system is heading straight your way soon.,0,ai_gemini,ham_personal,0,0,0,1
+"Hey, could I borrow your camping stove for this weekend? Going up to the lake with Sam.",0,ai_gemini,ham_personal,1,0,0,0
+Returning your umbrella today! Thanks for saving me from that downpour last week.,0,ai_gemini,ham_personal,0,0,1,0
+"Hey, do you have that recipe book on sourdough we talked about? Would love to look at it.",0,ai_gemini,ham_personal,0,0,0,1
+Returning your tupperware filled with leftover lasagna! Thanks again for dinner.,0,ai_gemini,ham_personal,0,0,0,1
+Here is the link to the photo album from our trip <URL>. Thanks for letting me borrow your camera!,0,ai_gemini,ham_personal,1,1,1,1
+Returning your yoga mat today. Thanks for letting me try it out before buying my own.,0,ai_gemini,ham_personal,0,0,1,0
+"Hey, do you have that password manager app recommendation handy? Mine keeps acting up.",0,ai_gemini,ham_personal,0,0,0,1
+"Returning your coffee grinder. Thanks for lending it, freshly ground beans make a huge difference!",0,ai_gemini,ham_personal,0,0,1,1
+"Hey, can I borrow your leaf blower for an afternoon? The yard is totally covered.",0,ai_gemini,ham_personal,1,0,0,0
+Checking in to see if you're still free for our usual Wednesday meetup.,0,ai_gemini,ham_personal,1,0,0,0
+"Hey, I'm waiting at the wrong terminal! Jog over to the north entrance, I'll meet you by baggage claim.",0,ai_gemini,ham_personal,0,0,0,1
+Can you drop a pin on your location? This neighborhood looks completely different at night.,0,ai_gemini,ham_personal,1,0,0,0
+Just cleared passport control. Heading to the curb now to look for your car.,0,ai_gemini,ham_personal,1,0,0,0

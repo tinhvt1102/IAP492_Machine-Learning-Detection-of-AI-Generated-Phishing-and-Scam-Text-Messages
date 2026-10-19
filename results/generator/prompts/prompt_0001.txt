@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 45 DIFFERENT English SMS messages of this phishing/scam type: banking (bank or credit card account alerts, suspicious login, blocked card, payment declined, identity verification).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- We noticed some unusual activity on your PayPal account on at near University Of Melbourne VIC and are concerned about potential unauthorised account access. Please click the link below to confirm your identity and remove limited:
+- BVN ALERT😄 DEAR CUSTOMER YOUR ATM CARD HAS JUST BEEN DEACTIVATED DUE TO SYSTEM ERROR TO REACTIVE PLEASE CALL <PHONE_NUMBER> BEFORE 24HOURS
+- Santander: We have noticed and attempted payment to the merchant 'Gadgets4You' for the amount of £390.00 if this wasn't you respond 'N' to +
+- DEAR SBI YONO USER, Your A/C will be blocked update PANCARD for KYC verify your
+- Dear Customer, your ICICI Bank Credit Card Application is under process. The final status will be communicated to you within . Congratulations! Welcome to ICICI Bank Credit Cards. Your application has been approved and your new card will be delivered in .
+Output format: a JSON array of 45 strings and nothing else.

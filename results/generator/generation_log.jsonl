@@ -1,0 +1,35 @@
+{"call_id": "0001", "backend": "gemini", "model": "gemini-3.8-flash", "status": "ok", "time": "2026-10-16T13:14:59.175073+00:00", "prompt_chars": 1866}
+{"call_id": "0002", "backend": "gemini", "model": "gemini-3.8-flash", "status": "ok", "time": "2026-10-16T13:18:32.549347+00:00", "prompt_chars": 1676}
+{"call_id": "0003", "backend": "gemini", "model": "gemini-3.8-flash", "status": "http_503", "time": "2026-10-16T13:20:50.427883+00:00", "prompt_chars": 1622}
+{"call_id": "0004", "backend": "gemini", "model": "gemini-3.8-flash", "status": "http_503", "time": "2026-10-16T13:23:09.483575+00:00", "prompt_chars": 1779}
+{"call_id": "0005", "backend": "gemini", "model": "gemini-3.8-flash", "status": "http_503", "time": "2026-10-16T13:25:25.479482+00:00", "prompt_chars": 1722}
+{"call_id": "0003", "backend": "gemini", "model": "gemini-2.5-flash-lite", "status": "http_404", "round": 1, "time": "2026-10-16T13:32:03.933545+00:00", "prompt_chars": 1622}
+{"call_id": "0004", "backend": "gemini", "model": "gemini-2.5-flash-lite", "status": "http_404", "round": 1, "time": "2026-10-16T13:32:16.389549+00:00", "prompt_chars": 1779}
+{"call_id": "0005", "backend": "gemini", "model": "gemini-2.5-flash-lite", "status": "http_404", "round": 1, "time": "2026-10-16T13:32:28.972402+00:00", "prompt_chars": 1722}
+{"call_id": "0006", "backend": "gemini", "model": "gemini-2.5-flash-lite", "status": "http_404", "round": 1, "time": "2026-10-16T13:32:41.493724+00:00", "prompt_chars": 1814}
+{"call_id": "0003", "backend": "gemini", "model": "gemini-3.8-flash-tts", "status": "http_400", "round": 1, "time": "2026-10-16T13:33:40.427915+00:00", "prompt_chars": 1622}
+{"call_id": "0003", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:37:02.661603+00:00", "prompt_chars": 1622}
+{"call_id": "0004", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:37:30.296846+00:00", "prompt_chars": 1779}
+{"call_id": "0005", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:37:51.623081+00:00", "prompt_chars": 1722}
+{"call_id": "0006", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:38:13.723579+00:00", "prompt_chars": 1814}
+{"call_id": "0007", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:39:09.506685+00:00", "prompt_chars": 1550}
+{"call_id": "0008", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:39:55.070209+00:00", "prompt_chars": 1671}
+{"call_id": "0009", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:40:15.259215+00:00", "prompt_chars": 1662}
+{"call_id": "0010", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:40:37.313106+00:00", "prompt_chars": 1745}
+{"call_id": "0011", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:40:58.181241+00:00", "prompt_chars": 1646}
+{"call_id": "0012", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:41:19.327637+00:00", "prompt_chars": 1686}
+{"call_id": "0013", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:41:48.678494+00:00", "prompt_chars": 1559}
+{"call_id": "0014", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:42:43.897814+00:00", "prompt_chars": 1901}
+{"call_id": "0015", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:43:12.448478+00:00", "prompt_chars": 1661}
+{"call_id": "0016", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:43:33.322479+00:00", "prompt_chars": 1280}
+{"call_id": "0017", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:44:00.423875+00:00", "prompt_chars": 1270}
+{"call_id": "0018", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:44:25.679193+00:00", "prompt_chars": 1140}
+{"call_id": "0019", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:44:51.032054+00:00", "prompt_chars": 1422}
+{"call_id": "0020", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:45:17.137706+00:00", "prompt_chars": 1185}
+{"call_id": "0021", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:45:45.866567+00:00", "prompt_chars": 1306}
+{"call_id": "0022", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:46:07.006818+00:00", "prompt_chars": 1342}
+{"call_id": "0023", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:46:32.720817+00:00", "prompt_chars": 1260}
+{"call_id": "0024", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:46:58.379834+00:00", "prompt_chars": 1325}
+{"call_id": "0025", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:47:26.991664+00:00", "prompt_chars": 1538}
+{"call_id": "0026", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:47:53.762725+00:00", "prompt_chars": 1202}
+{"call_id": "0027", "backend": "gemini", "model": "gemini-3.5-flash-lite", "status": "ok", "round": 1, "time": "2026-10-16T13:48:20.598970+00:00", "prompt_chars": 1301}

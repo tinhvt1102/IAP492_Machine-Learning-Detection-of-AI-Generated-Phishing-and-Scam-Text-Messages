@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 36 DIFFERENT English SMS messages of this phishing/scam type: government (tax refunds, unpaid fines or tolls, benefit payments, license or registration renewal).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Dear AJIT , Your vaccination is scheduled for <PHONE_NUMBER>:00AM-11:00AM at UPHC Makanpur . - CoWIN
+- Congratulations You are qualified for a Rs. Term Plan Under Pradhan mantri .
+- Notification. Dear Consumer Your Electricity power will be <URL> at 9:30pm from Electricity <URL>cause your bill was not updated please imme-diately contact with our electricity officer <PHONE_NUMBER> thank you.
+- IRS_TAX_REFUND_ID_#01QF2OJ091.pdf
+- Government giving free Laptop to all the students of . Register your Number on Gov-Laptop app to get free laptop. Link: <URL>
+Output format: a JSON array of 36 strings and nothing else.

@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 50 DIFFERENT English SMS messages that ordinary people send to friends or family in everyday life. Theme for this batch: making plans to meet or eat together.
+Rules:
+- Each message is one genuine personal text of about 20 to 250 characters. Vary the length, tone and wording; do not start many messages the same way.
+- These are NOT advertisements, service notifications or scams. No requests for money, codes or passwords.
+- Use first names or no names, and no real people or brands. Only about 1% of the messages may contain <URL> or <PHONE_NUMBER> (written exactly like that); the rest contain none.
+- Do not number the messages and add no explanation.
+Human-written examples (for tone only; do not copy or closely paraphrase them):
+- Hello beautiful r u ok? I've kinda ad a row wiv and he walked out the pub?? I wanted a night wiv u Miss u
+- Aiyah sorry lor... I watch tv watch until i forgot 2 check my phone.
+- I'll pick you up at about 5.15pm to go to taunton if you still want to come.
+- No we sell it all so we'll have tons if coins. Then sell our coins to someone thru paypal. Voila! Money back in life pockets:)
+- That is wondar full flim.
+Output format: a JSON array of 50 strings and nothing else.

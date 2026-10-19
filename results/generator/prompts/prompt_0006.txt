@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 42 DIFFERENT English SMS messages of this phishing/scam type: delivery (parcel or courier delivery problems, redelivery fees, customs charges, incomplete address).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Emirates Post informs you that your shipment will be returned if we do not hear from you. Reference: N2416154UAE at : <URL>
+- DEAR customer, Congratulations your booking order is very lucky for lucky draw contest and you have won 1st prize TATA SAFARI (RS-12,50,000) I hope you have always shop with <URL> details please CONTACT <PHONE_NUMBER>, Thanks.
+- Your Etarget Limited parcel is due between 12:22pm-4:22pm. View delivery options at
+- dear customer, congratulation, you have product order from SHOPCLUES (<URL>) COMPANY, your name to open lucky contest MAHINDRA XUV500 CAR cost RS. 14,80,000.00 you have received For more information contact <URL>le help line no. -<PHONE_NUMBER> . <PHONE_NUMBER> .
+- USPostal: Your package delivery has been paused due to missing street information for the package delivery city.
+Output format: a JSON array of 42 strings and nothing else.

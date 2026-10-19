@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 42 DIFFERENT English SMS messages of this phishing/scam type: delivery (parcel or courier delivery problems, redelivery fees, customs charges, incomplete address).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Dear sir Congratulation You are product Order flipkart online shopping company At flipkart shopping tv-show the results are out in Flipkart Your name to open the luky drw you-win-1st-prize-tata safari carRS=12,59,999 This is valid for information company helpline no=<PHONE_NUMBER>
+- We have attempted to deliver your package UPS016448296 , but there is an unpaid customs charge. Follow the instructions here:
+- Hermes: Your package has a £1.45 shipping fee, to pay this now visit <URL>. Failure will result in your parcel being returned to sender.
+- Your order + will arrive shortly. &
+- Your order is currently on hold due to incorrect information. You need to review your delivery details so we can reschedule your delivery:
+Output format: a JSON array of 42 strings and nothing else.

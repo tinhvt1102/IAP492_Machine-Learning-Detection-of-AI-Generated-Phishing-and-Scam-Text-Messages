@@ -1,0 +1,95 @@
+# Cấu hình công cụ generator: sinh tin nhắn bằng LLM (tập "do AI tạo" cho bước robustness)
+# Công cụ: src/data/generate_ai_messages.py  (backend: manual = dán prompt vào chat LLM; gemini = gọi API)
+
+generator:
+  seed: 42
+  oversample: 1.2             # yêu cầu nhiều hơn 20% để bù tin bị lọc (trùng, quá ngắn/dài, giống ví dụ mẫu)
+  messages_per_call: 50       # số tin yêu cầu trong mỗi lần gọi / mỗi prompt
+  seed_examples_per_call: 5   # số tin mẫu của NGƯỜI (lấy từ tập TRAIN) đưa vào prompt để mô phỏng văn phong
+  min_chars: 15
+  max_chars: 400
+  max_seed_overlap: 0.8       # bỏ tin có độ trùng từ (Jaccard) >= ngưỡng này với tin mẫu trong prompt
+  # backend gemini (chỉ dùng khi chạy --stage run):
+  model: gemini-3.5-flash-lite   # kiểm tra tên model còn hiệu lực trong Google AI Studio trước khi chạy
+  temperature: 1.0
+  sleep_seconds: 12           # nghỉ giữa các lần gọi để không vượt giới hạn gói miễn phí
+  max_retries: 4
+  rounds: 3                   # số vòng thử lại các lần gọi thất bại (503, 429...)
+  round_wait_seconds: 90      # nghỉ giữa các vòng
+  api_key_env: GEMINI_API_KEY
+
+paths:
+  train_csv: data/processed/phishing_detection/train.csv    # nguồn tin mẫu của người (chỉ TRAIN, không dùng val/test)
+  work_dir: results/generator                                # prompts/, responses/, manifest, log
+  raw_out_dir: data/raw/ai_generated_v2                      # nơi ghi scam_messages.txt, ham_messages.txt
+
+plan:
+  scam:        # tổng 500 tin lừa đảo; chủ đề lấy theo scam_type của IMC25 + nhóm trúng thưởng của Mishra & Soni
+    banking:
+      n: 150
+      description: "bank or credit card account alerts, suspicious login, blocked card, payment declined, identity verification"
+      seed_filter: {source: imc25, scam_type: banking}
+    delivery:
+      n: 70
+      description: "parcel or courier delivery problems, redelivery fees, customs charges, incomplete address"
+      seed_filter: {source: imc25, scam_type: delivery}
+    government:
+      n: 60
+      description: "tax refunds, unpaid fines or tolls, benefit payments, license or registration renewal"
+      seed_filter: {source: imc25, scam_type: government}
+    telecom:
+      n: 60
+      description: "mobile or internet bill overdue, SIM suspension, free upgrade, data bonus"
+      seed_filter: {source: imc25, scam_type: telecom}
+    prize:
+      n: 70
+      description: "lottery or prize wins, gift cards, free holidays or phones, survey rewards, premium-rate claim lines"
+      seed_filter: {source: mishra_soni, label_binary: 1}
+    others:
+      n: 60
+      description: "fake job offers, crypto or investment schemes, loans, tech support or account verification scams"
+      seed_filter: {source: imc25, scam_type: others}
+    family_impersonation:
+      n: 30
+      description: "someone pretending to be a family member (son, daughter, mum, dad) who has a new number and asks for money or help"
+      seed_filter: {source: imc25, scam_type: hey mum/dad}
+  ham:         # tổng 500 tin hợp lệ (tin nhắn cá nhân đời thường, giống tin hợp lệ trong dữ liệu train)
+    personal:
+      n: 500
+      description: "everyday personal text messages between friends and family"
+      seed_filter: {source: mishra_soni, label_binary: 0}
+      situations:    # xoay vòng qua từng lần gọi để tăng đa dạng nội dung
+        - "making plans to meet or eat together"
+        - "running late, travel and directions"
+        - "family logistics, kids, chores and shopping"
+        - "work and school small talk"
+        - "congratulations, thanks and birthday wishes"
+        - "jokes, gossip and casual chat"
+        - "health, weather and how-are-you check-ins"
+        - "borrowing or returning things, favours"
+
+entity_pct: {scam: 60, ham: 1}   # tỉ lệ tin có <URL>/<PHONE_NUMBER>/<EMAIL_ADDRESS>, khớp dữ liệu người (~59% và ~0,6%)
+
+prompts:
+  scam: |
+    You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+    Write {n} DIFFERENT English SMS messages of this phishing/scam type: {topic} ({description}).
+    Rules:
+    - Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+    - Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+    - Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about {entity_pct}% of the messages and leave it out of the rest.
+    - Do not number the messages and add no explanation.
+    Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+    {examples}
+    Output format: a JSON array of {n} strings and nothing else.
+  ham: |
+    You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+    Write {n} DIFFERENT English SMS messages that ordinary people send to friends or family in everyday life. Theme for this batch: {situation}.
+    Rules:
+    - Each message is one genuine personal text of about 20 to 250 characters. Vary the length, tone and wording; do not start many messages the same way.
+    - These are NOT advertisements, service notifications or scams. No requests for money, codes or passwords.
+    - Use first names or no names, and no real people or brands. Only about {entity_pct}% of the messages may contain <URL> or <PHONE_NUMBER> (written exactly like that); the rest contain none.
+    - Do not number the messages and add no explanation.
+    Human-written examples (for tone only; do not copy or closely paraphrase them):
+    {examples}
+    Output format: a JSON array of {n} strings and nothing else.

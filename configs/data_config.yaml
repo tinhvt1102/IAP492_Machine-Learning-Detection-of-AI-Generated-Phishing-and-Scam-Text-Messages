@@ -48,3 +48,10 @@ split:
   test_ratio: 0.15
   random_seed: 42
   stratify_columns: [label_binary, source]
+
+robustness:
+  raw_dir: data/raw/ai_generated
+  scam_file: scam_messages.txt
+  ham_file: ham_messages.txt
+  output_dir: data/processed/ai_generated
+  source_name: ai_claude

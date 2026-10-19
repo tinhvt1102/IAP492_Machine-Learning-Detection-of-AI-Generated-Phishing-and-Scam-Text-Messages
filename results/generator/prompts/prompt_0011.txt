@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 42 DIFFERENT English SMS messages of this phishing/scam type: prize (lottery or prize wins, gift cards, free holidays or phones, survey rewards, premium-rate claim lines).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- URGENT! This is the 2nd attempt to contact U!U have WON £1250 CALL <PHONE_NUMBER> b4 050703 T&CsBCM4235WC1N3XX. callcost 150ppm mobilesvary. max£7. 50
+- You have been randomly selected for a BestBuy gift. Get your $1000 gift card at <URL>
+- U have a secret admirer. REVEAL who thinks U R So special. Call <PHONE_NUMBER>. To opt out Reply REVEAL STOP. 1.50 per msg recd. Cust care <PHONE_NUMBER>
+- U have a Secret Admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on <PHONE_NUMBER>-stopsms-08718727870150ppm
+- You have an important customer service announcement. Calnumber <PHONE_NUMBER> now!
+Output format: a JSON array of 42 strings and nothing else.

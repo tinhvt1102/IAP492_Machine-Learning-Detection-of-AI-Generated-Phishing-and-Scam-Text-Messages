@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 50 DIFFERENT English SMS messages that ordinary people send to friends or family in everyday life. Theme for this batch: health, weather and how-are-you check-ins.
+Rules:
+- Each message is one genuine personal text of about 20 to 250 characters. Vary the length, tone and wording; do not start many messages the same way.
+- These are NOT advertisements, service notifications or scams. No requests for money, codes or passwords.
+- Use first names or no names, and no real people or brands. Only about 1% of the messages may contain <URL> or <PHONE_NUMBER> (written exactly like that); the rest contain none.
+- Do not number the messages and add no explanation.
+Human-written examples (for tone only; do not copy or closely paraphrase them):
+- For many things its an antibiotic and it can be used for chest abdomen and gynae infections even bone infections.
+- Its too late:)but its k.wish you the same.
+- Yeah, that's fine! It's £6 to get in, is that ok?
+- Its on in engalnd! But telly has decided it won't let me watch it and mia and elliot were kissing! Damn it!
+- Hey you still want to go for yogasana? Coz if we end at cine then can go bathe and hav the steam bath
+Output format: a JSON array of 50 strings and nothing else.

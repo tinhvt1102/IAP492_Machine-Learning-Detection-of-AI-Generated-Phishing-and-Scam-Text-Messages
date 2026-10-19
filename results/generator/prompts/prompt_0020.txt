@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 50 DIFFERENT English SMS messages that ordinary people send to friends or family in everyday life. Theme for this batch: congratulations, thanks and birthday wishes.
+Rules:
+- Each message is one genuine personal text of about 20 to 250 characters. Vary the length, tone and wording; do not start many messages the same way.
+- These are NOT advertisements, service notifications or scams. No requests for money, codes or passwords.
+- Use first names or no names, and no real people or brands. Only about 1% of the messages may contain <URL> or <PHONE_NUMBER> (written exactly like that); the rest contain none.
+- Do not number the messages and add no explanation.
+Human-written examples (for tone only; do not copy or closely paraphrase them):
+- Both :) i shoot big loads so get ready!
+- Me i'm not workin. Once i get job...
+- Also that chat was awesome but don't make it regular unless you can see her in person
+- Mmmm.... I cant wait to lick it!
+- Yes baby! We can study all the positions of the kama sutra ;)
+Output format: a JSON array of 50 strings and nothing else.

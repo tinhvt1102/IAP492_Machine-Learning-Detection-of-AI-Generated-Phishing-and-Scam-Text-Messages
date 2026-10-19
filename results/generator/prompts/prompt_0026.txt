@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 50 DIFFERENT English SMS messages that ordinary people send to friends or family in everyday life. Theme for this batch: family logistics, kids, chores and shopping.
+Rules:
+- Each message is one genuine personal text of about 20 to 250 characters. Vary the length, tone and wording; do not start many messages the same way.
+- These are NOT advertisements, service notifications or scams. No requests for money, codes or passwords.
+- Use first names or no names, and no real people or brands. Only about 1% of the messages may contain <URL> or <PHONE_NUMBER> (written exactly like that); the rest contain none.
+- Do not number the messages and add no explanation.
+Human-written examples (for tone only; do not copy or closely paraphrase them):
+- Ü only send me the contents page...
+- C movie is juz last minute decision mah. Juz watch 2 lar but i tot ü not interested.
+- ... Are you in the pub?
+- Erm... Woodland avenue somewhere. Do you get the parish magazine, his telephone number will be in there.
+- Hey anyway i have to :-)
+Output format: a JSON array of 50 strings and nothing else.

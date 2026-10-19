@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 45 DIFFERENT English SMS messages of this phishing/scam type: banking (bank or credit card account alerts, suspicious login, blocked card, payment declined, identity verification).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- From Revolut: Your account has been temporarily locked, please verify your identity at the following URL: <URL>
+- Dear customer your PATY'M KYC haas ben expire please call customer care <PHONE_NUMBER> immeditely your PATY'M acount bloked 24hrs THANK YOU
+- <URL> have received Ksh4,530.00 from on . Your M-PESA balance is(LOCKED)
+- Dear customer your SBI account has been suspended please update your document visit Aadhar website click here to update by <URL>
+- Dear Mr Heslop Administration Order Absa Bank. Kindly contact Red Admin on or <EMAIL_ADDRESS> to confirm that you are currently under Administration as well as the name of your Administrator. Thank you.
+Output format: a JSON array of 45 strings and nothing else.

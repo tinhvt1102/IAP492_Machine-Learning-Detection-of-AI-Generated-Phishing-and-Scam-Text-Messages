@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 36 DIFFERENT English SMS messages of this phishing/scam type: others (fake job offers, crypto or investment schemes, loans, tech support or account verification scams).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Hello! Thank you for choosing to access Games World, You have been charged Rs. 20
+- Dear Consumer Your Electricity Power Will Be Disconnected. at at 9:00Pm form Electricity Department. Cause of Your Mobile Was Connected... And Update Your Information With Our Electricity Officer Thank You...
+- My name is i have 2.8 million dollars to donate to you for charity work in your country contact me here:<EMAIL_ADDRESS>
+- BILL???IN???G NO???T???ICE???Yo???ur?a???u???to?polic??????y was??ov?er???c??h???a???rge?d????b??y??? $ ???847??.61.??A??????p???pl?y?????for?re??i???mburs???e??m?????e??n??????t?to???d?a?????y????????:?????????<URL>????????
+- Good morning, my name is , a career counselor for the military in , CA. I’m reaching out to see if you would be interested in sitting down for more information about the Army benefits and programs, including money for education and up to $50,000 in bonuses.
+Output format: a JSON array of 36 strings and nothing else.

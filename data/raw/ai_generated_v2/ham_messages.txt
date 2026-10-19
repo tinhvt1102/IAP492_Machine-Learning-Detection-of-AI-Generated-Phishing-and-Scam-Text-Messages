@@ -1,0 +1,501 @@
+# Sinh bởi generate_ai_messages.py | LLM: Gemini gemini-3.5-flash-lite, 2026-10 | ngày parse: 2026-10-16 | 500 tin
+ham_personal|Hey, are we still on for coffee tomorrow afternoon at that new place downtown?
+ham_personal|So glad Friday is almost here. Do you want to grab tacos after work?
+ham_personal|My mom is visiting this weekend, but I should be free on Sunday evening if you want to get dinner.
+ham_personal|Thinking about checking out that Thai spot we talked about. Let me know if you're around Thursday night.
+ham_personal|Are you free to grab a quick bite before the movie starts tonight? Let's meet at 7.
+ham_personal|So hungry right now. Want to order pizza and hang out at my place?
+ham_personal|Just wrapped up my shift. Do you want to grab a burger or something?
+ham_personal|Let's do brunch this weekend! Saturday works best for me, how about you?
+ham_personal|Hey Mark, can we push our lunch back by thirty minutes? Stuck in traffic.
+ham_personal|Running a bit behind schedule today, so let's aim to meet around 6:30 instead of 6.
+ham_personal|Did you want to get some work done together at the library this afternoon and then grab dinner?
+ham_personal|I'm craving sushi so badly. Are you down to go tonight?
+ham_personal|Check out this menu <URL> when you get a chance and let me know what looks good to you.
+ham_personal|Hey, do you want to come over for a barbecue on Saturday? I'll supply the burgers.
+ham_personal|It has been way too long since we caught up. Let's make time for coffee this week.
+ham_personal|Are you around for lunch tomorrow? I need a break from my desk.
+ham_personal|Let's meet up at the park on Saturday morning for a walk and some smoothies.
+ham_personal|What are your plans for dinner tonight? I was thinking about checking out the new diner.
+ham_personal|Hey Sarah, do you want to grab drinks after work on Friday to celebrate the weekend?
+ham_personal|Just got tickets for the concert next month! We should grab dinner beforehand.
+ham_personal|Do you prefer Italian or Mexican food for our get-together on Thursday?
+ham_personal|I am free all afternoon if you want to grab a coffee and chat.
+ham_personal|Let's try that new bakery on the corner this Saturday morning.
+ham_personal|Hey, are you up for grabbing some wings and watching the game tonight?
+ham_personal|Just let me know what time works best for you to meet up for lunch.
+ham_personal|I'll be in your neighborhood around 2 PM tomorrow, want to grab a quick coffee?
+ham_personal|Dinner is on me tonight if you're free to meet up after 8.
+ham_personal|So, are we still meeting at the usual spot or somewhere else?
+ham_personal|Let's grab some noodles tonight! I need comfort food after this long week.
+ham_personal|Hey, do you want to meet up for breakfast tomorrow before we both start working?
+ham_personal|Thinking about heading to the farmers market on Saturday morning. Want to join and grab breakfast after?
+ham_personal|My schedule cleared up unexpectedly. Do you want to grab lunch in twenty minutes?
+ham_personal|Just landed and I'm starving. Let's get food soon!
+ham_personal|Are you free to grab a bite to eat before the meeting starts?
+ham_personal|Let's plan a picnic this weekend if the weather stays nice like this.
+ham_personal|Hey, do you want to grab a smoothie after the gym today?
+ham_personal|So excited to see you this weekend. Let me know when you arrive so we can pick a restaurant.
+ham_personal|What do you think about meeting at the cafe near the station around noon?
+ham_personal|Let's grab some ice cream and take a walk by the river tonight.
+ham_personal|Hey, are you up for grabbing a quick bite before our class starts?
+ham_personal|Just thinking we should try that new ramen place downtown this Friday night.
+ham_personal|Are you around for a quick lunch date tomorrow? My treat!
+ham_personal|Let's meet up for coffee and catch up on everything we missed.
+ham_personal|Hey, do you want to share a pizza tonight while we watch that movie?
+ham_personal|So, are we doing dinner at your place or mine this weekend?
+ham_personal|Let's grab some tacos after we finish running errands.
+ham_personal|Hey, are you free to grab a coffee around 3 PM today?
+ham_personal|Just let me know when you're done with work and we can figure out dinner.
+ham_personal|Thinking of grabbing some soup because I'm feeling a bit under the weather. Want to join?
+ham_personal|Let's meet up for breakfast this Sunday and plan our upcoming trip.
+ham_personal|Hey, just letting you know I missed my usual bus so I'll probably be about fifteen minutes behind schedule.
+ham_personal|Traffic on the bridge is completely backed up. Might be a bit late getting to dinner.
+ham_personal|Could you grab the keys from the counter before you leave? I forgot mine and I'm already halfway across town.
+ham_personal|Flight just landed! Grabbing my bag now and heading straight to the pickup area.
+ham_personal|So sorry, completely lost track of time while working on this report. Leaving the office right now.
+ham_personal|Are you still at the grocery store? Could you pick up some extra milk while you're there?
+ham_personal|Hey, the GPS is taking me down some weird backroads because of construction. See you soon though.
+ham_personal|Running about ten minutes behind, grabbed a coffee and the line was way longer than expected.
+ham_personal|Where should we meet up for lunch? I'm walking past the central park entrance now.
+ham_personal|Just boarded the train! Should be at your station around six o'clock.
+ham_personal|Hey mom, my phone is dying so I might not reply for a bit while I'm on the bus.
+ham_personal|Can you send me the address again? Maps keeps glitching out on my phone for some reason.
+ham_personal|Stuck behind a slow tractor on the country lane. Definitely going to miss the start of the movie.
+ham_personal|Almost there! Just looking for a parking spot near the restaurant now.
+ham_personal|Hey, do you want me to bring anything special on my way over this evening?
+ham_personal|The highway is closed for an accident so I have to take a huge detour. Don't wait up for dinner.
+ham_personal|Just left the house, see you in twenty minutes!
+ham_personal|My ride canceled at the last minute, so I'm catching the subway instead. Might be slightly delayed.
+ham_personal|Hey, could you check if I left my blue umbrella by your front door?
+ham_personal|Walking up to the front entrance now, where are you sitting?
+ham_personal|Turn left past the big oak tree and our house is the third driveway on the right.
+ham_personal|Got turned around in the parking garage, looking for the exit to the main street.
+ham_personal|Hey! Just checking if you still need me to pick up dessert on my way across town.
+ham_personal|Bus broke down, everyone has to wait for the next one. So frustrating!
+ham_personal|Heading to the station now, see you on the platform.
+ham_personal|Sorry for the delay, had to help a neighbor jumpstart their car.
+ham_personal|Just crossed the city line, ETA is twenty minutes.
+ham_personal|Are we still meeting at the usual spot or did you change plans?
+ham_personal|My battery is at five percent so if I go quiet I'm just on the road.
+ham_personal|Took a wrong turn and ended up on the toll road, oops.
+ham_personal|Almost finished packing, just grabbing my jacket and keys.
+ham_personal|Traffic is moving really slowly near the stadium, might take an alternate route.
+ham_personal|Hey, are you home yet or should I wait outside?
+ham_personal|Just stepped off the plane, heading to baggage claim.
+ham_personal|Running late because my alarm didn't go off this morning. So sorry!
+ham_personal|Meet me by the fountain in the main courtyard when you get here.
+ham_personal|Car is making a weird rattling sound so I pulled over to check it out.
+ham_personal|Just finished my meeting, heading over to your place now.
+ham_personal|Can you believe how crowded the subway is today? Packed like sardines.
+ham_personal|Left my phone charger at your place, mind if I swing by tomorrow to grab it?
+ham_personal|Taking a quick shortcut through the park to save some time.
+ham_personal|Flight got delayed by an hour, sitting at the gate reading a book.
+ham_personal|Just passed the welcome sign, almost at the cabin!
+ham_personal|Waiting at the red light, I'll be there in two minutes.
+ham_personal|Hey, did you want me to stop by the bakery before I come over?
+ham_personal|The road is closed ahead so the bus is taking a detour through the industrial park.
+ham_personal|Just pulled into the driveway, coming inside now.
+ham_personal|Running a bit behind schedule, don't start cooking without me please!
+ham_personal|Hey, what time did you want me to pick you up tomorrow morning?
+ham_personal|Just got off the phone with <PHONE_NUMBER> and they are running late too, so we're all good.
+ham_personal|Could you pick up some oat milk and bananas on your way home tonight?
+ham_personal|Don't forget piano practice starts at 4 sharp today.
+ham_personal|What time are we heading over to mom's place on Sunday?
+ham_personal|I left the house key under the potted plant by the back door.
+ham_personal|Did you manage to fix the leaking kitchen faucet yet?
+ham_personal|We are completely out of coffee pods, can you grab some?
+ham_personal|Please remember to take the recycling bin out to the curb.
+ham_personal|Can you swing by the post office before they close at five?
+ham_personal|Dad asked if we could help him clean out the garage this weekend.
+ham_personal|Who is dropping the kids off at soccer practice this afternoon?
+ham_personal|I grabbed extra chicken for dinner so you don't need to cook.
+ham_personal|Can you text me the casserole recipe when you get a minute?
+ham_personal|The dog needs to go to the vet for his annual shots next Tuesday.
+ham_personal|Did you remember to sign Leo's permission slip for the field trip?
+ham_personal|I'm running a bit late at the grocery store, start without me.
+ham_personal|Please put a load of towels in the wash before you leave.
+ham_personal|Can you check if we have any spare lightbulbs in the pantry?
+ham_personal|We need to schedule the annual chimney sweep before winter hits.
+ham_personal|Grandma called to see what time we are visiting tomorrow.
+ham_personal|Could you water the patio plants while I am out of town?
+ham_personal|I packed leftovers for your lunch in the blue container.
+ham_personal|Are we still doing family game night this coming Friday?
+ham_personal|Make sure you wear your winter coat, it is freezing outside.
+ham_personal|Can you stop by the pharmacy to pick up my prescription?
+ham_personal|The plumber is coming between 9 and 12 tomorrow morning.
+ham_personal|Did anyone see my grey hoodie? I can't find it anywhere.
+ham_personal|We are running low on laundry detergent, add it to the list.
+ham_personal|Can you feed the cat before you head out to work?
+ham_personal|I forgot my gym bag in the trunk, can you bring it inside?
+ham_personal|Uncle Bob sent us some fresh apples from his orchard.
+ham_personal|Let me know if you need me to pick up anything for tacos.
+ham_personal|The teacher emailed about the school play costumes for next week.
+ham_personal|Can you check the mail today? I'm expecting a package.
+ham_personal|Who was supposed to take out the kitchen trash today?
+ham_personal|I'll be home around six to help put the kids to bed.
+ham_personal|Can you look for my sunglasses? I think I left them in the car.
+ham_personal|We need to buy a birthday present for Sarah's party this Saturday.
+ham_personal|Please remember to lock the front deadbolt when you go out.
+ham_personal|Did you drop off the dry cleaning like we talked about?
+ham_personal|I'm making a grocery run in an hour, send me your requests.
+ham_personal|Can you help me carry the groceries in from the car?
+ham_personal|The internet router is acting up again, did you restart it?
+ham_personal|Let's order pizza tonight, I'm too tired to cook anything.
+ham_personal|Can you check if the garage door is closed properly?
+ham_personal|I left my umbrella by the front door, please bring it.
+ham_personal|We need to change the air filter in the hallway unit.
+ham_personal|Did you remember to charge your phone before we left?
+ham_personal|Can you grab the mail on your way up the driveway?
+ham_personal|I'll be at the hardware store if you need anything else.
+ham_personal|Dinner is in the oven on warm, help yourself whenever.
+ham_personal|Hey, are we still meeting in the library at three? I completely forgot to print my notes for the history seminar.
+ham_personal|My presentation went okay, but I totally blanked on the third slide when the professor asked a follow-up question.
+ham_personal|Could you send me the lecture slides for biology? I missed class this morning because I woke up with a terrible migraine.
+ham_personal|Just submitted my final essay! I am so relieved I could cry, honestly time for a huge nap now.
+ham_personal|Are you bringing your laptop to the study group tonight or should I pack mine?
+ham_personal|Mr. Davis pushed the project deadline to next Friday, which is a huge relief since we barely started.
+ham_personal|Do you want to grab coffee from the cafeteria before our 10am lecture?
+ham_personal|I have a massive pile of grading to get through tonight before tomorrow's morning classes. Send coffee!
+ham_personal|Did you understand anything the professor was talking about today? It felt like he was speaking entirely in code.
+ham_personal|Reminder that we need to finish our group project slides by tonight so we can practice tomorrow.
+ham_personal|Stuck in traffic and might be ten minutes late to the morning standup meeting, go ahead without me.
+ham_personal|Can you share the notes from yesterday's econ lecture? My pen died halfway through class.
+ham_personal|That meeting could have easily been an email. Literally wasted an hour talking in circles.
+ham_personal|Leaving the office now, do we need any milk or bread for tomorrow's breakfast?
+ham_personal|My manager just praised my report from last week! Definitely made up for all the stress.
+ham_personal|Are we doing lunch at the usual spot today or ordering takeout to the office?
+ham_personal|Homework for math is page forty-two problems one through ten, in case you didn't catch it.
+ham_personal|So glad it is finally Thursday, this work week has felt like it lasted a whole month.
+ham_personal|Can you review my draft proposal when you get a chance? Just need a quick sanity check.
+ham_personal|Heading to the campus bookstore to grab that textbook before they run out of used copies.
+ham_personal|That workshop was surprisingly useful, I actually learned a few new spreadsheet shortcuts.
+ham_personal|Forgot my security badge at home today so I had to awkwardly wait at reception for someone to let me in.
+ham_personal|Physics lab got cancelled because the equipment broke, so we get an early weekend!
+ham_personal|Let me know when you are free for a quick sync about the quarterly budget numbers.
+ham_personal|My computer decided to do a mandatory update right in the middle of my Zoom lecture. Classic.
+ham_personal|Thanks for helping me prep for the interview yesterday, it went really well and I felt super confident.
+ham_personal|Working from home today because the internet guy is coming sometime between nine and noon.
+ham_personal|Did anyone actually do the reading for seminar today or are we all just going to wing it?
+ham_personal|Our team lead brought donuts to the office this morning, definitely a great start to the day.
+ham_personal|Just finished my last exam of the semester! I am officially free.
+ham_personal|Can you cover my shift on Thursday afternoon? I have a dentist appointment I cannot reschedule.
+ham_personal|That Zoom call froze at the worst possible moment while I was sharing my screen.
+ham_personal|Stuck grading papers while listening to the rain outside, kind of a cozy vibe tbh.
+ham_personal|Let me check the shared calendar and I'll let you know what time works best for our team sync.
+ham_personal|Do you have the link for today's virtual lecture? Blackboard is acting up again.
+ham_personal|My backpack zipper broke and now all my textbooks are spilling out everywhere. Disaster.
+ham_personal|Just got my test grade back and I passed! I was so stressed for nothing.
+ham_personal|Are you working from the main office tomorrow or the downtown branch?
+ham_personal|The printer jammed right as I was trying to print my lab report. Why does this always happen?
+ham_personal|Halfway through the weekly report and my brain is completely fried.
+ham_personal|Who was supposed to bring the poster board for our history presentation tomorrow?
+ham_personal|Finished my presentation deck ahead of schedule, feeling pretty proud of this one.
+ham_personal|That client meeting was intense, but we managed to close the deal in the end.
+ham_personal|Just a heads up, the elevator in the science building is out of order again today.
+ham_personal|Eating lunch at my desk today because I have back-to-back meetings all afternoon.
+ham_personal|Can you believe finals are already next week? Time flew by way too fast.
+ham_personal|Successfully survived the Monday morning catch-up emails. Now for coffee round two.
+ham_personal|Do you want to review flashcards together before the Spanish quiz tomorrow morning?
+ham_personal|Our professor extended the paper deadline until midnight, best news ever.
+ham_personal|Leaving work now, see you at home in about thirty minutes!
+ham_personal|Happy birthday to my absolute favorite person! Hope your day is filled with way too much cake and zero adult responsibilities.
+ham_personal|Just wanted to say a massive thank you for helping me move the couch yesterday. My back is still sore, but I survived!
+ham_personal|So proud of you for landing that promotion! We definitely need to grab drinks this weekend to celebrate properly.
+ham_personal|Happy belated birthday, Uncle Dave! Sorry this is a day late, hope you had a fantastic time celebrating with everyone.
+ham_personal|Thanks so much for watching the cat while we were out of town. You're a total lifesaver and we owe you big time.
+ham_personal|Wishing you the happiest birthday ever! Can't wait to see you tonight and catch up on everything.
+ham_personal|Hey, thanks for driving me to the clinic this morning. It meant a lot not having to take the bus.
+ham_personal|Happy birthday, sis! Hope you love the little package I sent your way. Eat some extra dessert for me!
+ham_personal|Thanks for checking in on me yesterday when I was feeling under the weather. Feeling much better today.
+ham_personal|Happy sweet sixteen to my amazing niece! Have the best day ever and enjoy every single second of it.
+ham_personal|Just wanted to send a quick thank you for the delicious homemade cookies. They didn't even last twenty-four hours in this house.
+ham_personal|Happy birthday! Wishing you health, happiness, and all the success in the world this coming year.
+ham_personal|Thanks for the pep talk before my interview. It really helped calm my nerves and I think it went great!
+ham_personal|Happy milestone birthday! Hard to believe we're getting this old, but at least we're doing it together.
+ham_personal|Just saying thanks again for letting me crash on your couch last weekend. You are the best host.
+ham_personal|Happy birthday, buddy! Let's get together soon and grab those burgers we've been talking about forever.
+ham_personal|Thank you so much for the gorgeous flowers. They completely brightened up the whole living room.
+ham_personal|Wishing a very happy birthday to the coolest mom on the planet. Love you loads!
+ham_personal|Thanks for lending me your drill last week. I finally finished the shelf and it actually looks straight!
+ham_personal|Happy birthday! Hope your special day is as wonderful and bright as you are.
+ham_personal|Just wanted to express my gratitude for all your advice lately. It really helped me sort my head out.
+ham_personal|Happy birthday to my wonderful partner in crime. Let's make this next year the best one yet.
+ham_personal|Thanks for bringing over that soup when I was sick. It was honestly the best thing ever.
+ham_personal|Happy birthday! May your coffee be strong and your Monday be short today.
+ham_personal|Just a quick text to say thanks for looking after the dog. He looks exhausted from playing so much!
+ham_personal|Happy birthday, Grandma! Sending you the biggest hugs from across the miles today.
+ham_personal|Thanks for helping me study for finals. I seriously would have failed without your endless patience.
+ham_personal|Happy birthday! Hope you get spoiled rotten today because nobody deserves it more than you.
+ham_personal|Just wanted to say thanks for the ride to the airport. Safe travels back to you too!
+ham_personal|Happy birthday to my favorite brother! Try not to break anything exciting while celebrating.
+ham_personal|Thanks for the recommendation on that book. I started reading it last night and I'm already hooked.
+ham_personal|Happy birthday! Wishing you an incredible day filled with all your favorite things and people.
+ham_personal|Just saying thanks for watering the plants while we were gone. They look happier than when we left!
+ham_personal|Happy birthday, old friend! Hard to believe how many years we've been putting up with each other.
+ham_personal|Thanks for keeping my secret yesterday. I really appreciate having someone I can always trust.
+ham_personal|Happy birthday! Hope you get to relax and do absolutely nothing productive all day long.
+ham_personal|Just wanted to thank you for setting up the new printer. You always save the day with tech stuff.
+ham_personal|Happy birthday to an incredible friend who always knows how to make me laugh.
+ham_personal|Thanks for picking up those groceries for me on your way home. You are an absolute angel.
+ham_personal|Happy birthday! Wishing you peace, love, and plenty of cake in the year ahead.
+ham_personal|Just a quick note to say thank you for being such a supportive listener through all my crazy stories.
+ham_personal|Happy birthday, dude! Hope the party tonight is legendary.
+ham_personal|Thanks for sharing your notes with me. You literally saved my grade this semester.
+ham_personal|Happy birthday! May this next chapter bring you endless joy and amazing new adventures.
+ham_personal|Just wanted to say a huge thank you for the wonderful housewarming gift. It fits our place perfectly.
+ham_personal|Happy birthday to my amazing sister-in-law! Hope you have a relaxing and joyful day.
+ham_personal|Thanks for fixing the squeaky door hinge. It's so quiet now and driving me way less crazy.
+ham_personal|Happy birthday! Wishing you a fantastic celebration surrounded by the people who love you most.
+ham_personal|Just saying thanks for always being there whenever I need to vent about work drama.
+ham_personal|Happy birthday! Hope your day is filled with good food, great company, and lots of smiles.
+ham_personal|Hey, are we still on for coffee later or did your meeting run late?
+ham_personal|Did you see that ridiculous video Sam posted on Instagram this morning? I can't stop laughing.
+ham_personal|Mom told me she's making lasagna for Sunday dinner. Bring your appetite!
+ham_personal|Just finished reading that book you recommended. The ending totally caught me off guard.
+ham_personal|Can you believe how fast this week went by? Feels like Monday was just yesterday.
+ham_personal|I tried making those cookies from the recipe you sent and well... let's just say smoke alarms were involved.
+ham_personal|Do you remember the name of that restaurant we went to for Leo's birthday? I'm trying to tell Sarah about it.
+ham_personal|My cat just fell off the back of the sofa while stretching. Zero grace whatsoever.
+ham_personal|Thinking about heading to the mountains this weekend if the weather holds up. Want to join?
+ham_personal|Who left three empty coffee mugs on the counter? I know it wasn't me this time.
+ham_personal|Guess who I ran into at the grocery store today? Our old neighbor from the apartment complex!
+ham_personal|That new sci-fi show on streaming is actually pretty good. You should check it out when you have some downtime.
+ham_personal|Remind me to tell you the hilarious thing the barista said to me this morning.
+ham_personal|Rain is finally stopping. Time to take the dog out before he destroys another chew toy.
+ham_personal|Are you watching the game right now? What a crazy comeback in the fourth quarter!
+ham_personal|I swear my phone autocorrects things just to make me look foolish.
+ham_personal|Let's grab lunch next week and catch up properly. It's been way too long.
+ham_personal|Did you ever find your winter gloves? I think I saw them on the bottom shelf of the coat closet.
+ham_personal|Traffic on the bridge is completely stopped. I might be a few minutes late getting home.
+ham_personal|Hope your presentation went well this afternoon! Let me know how it turned out.
+ham_personal|Just adopted a tiny cactus for my desk. I've decided to name him Sir Prickle.
+ham_personal|Do we need more milk? I'm at the store now and want to make sure I don't forget anything.
+ham_personal|That sunset tonight was incredible. Did you manage to get a picture of it?
+ham_personal|Happy birthday! Hope you're having an amazing day so far.
+ham_personal|I cannot keep plants alive to save my life. Another fern bites the dust.
+ham_personal|Movie night at my place on Friday? I'll order pizza if you bring the snacks.
+ham_personal|Check out this cool local art fair downtown <URL>
+ham_personal|Why is packing for a three-day trip always so stressful? I'm bringing way too many clothes.
+ham_personal|Just realized I left my umbrella at your house. No rush, just grabbing it next time I see you.
+ham_personal|Good morning! Hope you slept well and have a smooth commute.
+ham_personal|My neighbor's dog has been barking at the wind for the past hour. Send help.
+ham_personal|Did you hear the rumor about the office remodel? Everyone is freaking out over nothing.
+ham_personal|I found my old middle school yearbook today. The fashion choices are truly haunting.
+ham_personal|Heading out the door now, see you in about twenty minutes!
+ham_personal|Thanks for the book recommendation, I'm already hooked on chapter two.
+ham_personal|Let me know if you need me to pick up anything else on my way over.
+ham_personal|That was easily the best taco I've ever had in my life. We need to go back soon.
+ham_personal|Hope you're having a relaxing Sunday. I'm currently buried under three blankets.
+ham_personal|Did you catch the news about the new park downtown? Looks like it's going to be really nice.
+ham_personal|My laptop is making a weird buzzing sound again. Might need to take it in this weekend.
+ham_personal|Just finished a massive puzzle and now I don't know what to do with my hands.
+ham_personal|Let's plan a weekend getaway soon. Somewhere near the coast would be amazing.
+ham_personal|Who decided that waking up at seven in the morning should be the societal standard? Terrible idea.
+ham_personal|Sending you good vibes for your interview today. You're going to crush it!
+ham_personal|I bought way too many apples at the farmers market. Expect apple pie or apple crisp soon.
+ham_personal|Did the package we were expecting arrive yet, or is it still out for delivery?
+ham_personal|So glad it's finally Friday. This week felt like it lasted a full month.
+ham_personal|Let's try that new Thai place downtown for dinner tomorrow night.
+ham_personal|Just stubbed my toe on the coffee table. Send sympathy.
+ham_personal|Have a wonderful evening and talk to you tomorrow!
+ham_personal|Hey, just checking in to see how your cold is holding up today. Did you end up making that doctor's appointment?
+ham_personal|It is absolutely pouring rain over here right now, make sure you take an umbrella if you have to head out soon.
+ham_personal|Hope your week is going alright so far! Let me know if you are still free to grab coffee sometime this weekend.
+ham_personal|Mom wanted me to ask if you are still coming over for dinner on Sunday and if you need us to pick up anything special.
+ham_personal|Man, this weather is making me so sleepy. I could easily take a three-hour nap right this second.
+ham_personal|Just finished my morning run and my legs are already feeling like jelly. How was your workout?
+ham_personal|Thinking of you! Hope your back is feeling a bit better after that heavy lifting yesterday.
+ham_personal|Are you surviving the heat wave down there? Stay hydrated and try to stay inside in the AC as much as possible.
+ham_personal|Just wanted to say hi and see how you are holding up. It has been way too long since we last chatted.
+ham_personal|That nasty flu bug finally caught up with me, so I am stuck in bed with soup and movies all day.
+ham_personal|Did you survive the storm last night? Our power flickered a few times but thankfully stayed on.
+ham_personal|Hope work isn't stressing you out too much this week. Remember to take a break and breathe!
+ham_personal|My ankle is finally swelling down after that weird twist on the hiking trail, thankfully nothing is broken.
+ham_personal|Brrr, it dropped so much overnight! Definitely need to break out the heavy winter coats today.
+ham_personal|Hey! Just wanted to make sure you made it home safe through all that terrible fog last night.
+ham_personal|Drinking tons of lemon ginger tea trying to shake off this scratchy throat before the weekend arrives.
+ham_personal|Gorgeous sunny day outside today, you should definitely try to step away from your desk for a few minutes to soak up some vitamin D.
+ham_personal|How did your presentation go this morning? I was crossing my fingers for you all through my first meeting.
+ham_personal|Still recovering from that massive weekend workout, my arms are practically useless right now lol.
+ham_personal|Do you happen to have that soup recipe handy? Not feeling 100 percent today and could really use a hot bowl.
+ham_personal|Crazy how fast the weather changes around here, went from a t-shirt morning to a freezing rain afternoon.
+ham_personal|Just checking in on the little guy, is his fever finally coming down with the medicine?
+ham_personal|Hope your allergy meds are working better than mine because the pollen count today is brutal.
+ham_personal|Missing you lots! Let's definitely schedule a video call this weekend to catch up properly.
+ham_personal|That thunderstorm woke me up twice last night, I am so exhausted today.
+ham_personal|Did you end up planting those flowers before the rain started or did you wait until today?
+ham_personal|Just took my vitamins and drank a huge glass of water, trying to stay healthy this season.
+ham_personal|How is the new schedule treating you so far? Are you getting enough sleep at least?
+ham_personal|If you need any groceries dropped off while you are resting and recovering, just text me a list.
+ham_personal|The wind is howling outside our windows right now, sounds pretty wild out there.
+ham_personal|Sending you good vibes for your dentist appointment today, hope it goes super fast and painless!
+ham_personal|Finally got around to scheduling my annual check-up, feels good to cross that off the to-do list.
+ham_personal|Sweater weather is officially here and I am so happy about it. Love this time of year.
+ham_personal|Are you feeling any better today? Let me know if you need someone to run any errands for you.
+ham_personal|My coffee isn't even working this morning, this grey gloomy weather is making me want to hibernate.
+ham_personal|Hope your dad's physical therapy went well today. Give him my best regards!
+ham_personal|Checking the radar and it looks like a massive storm system is heading straight your way soon.
+ham_personal|Just woke up from the best afternoon nap ever. My body definitely needed that rest.
+ham_personal|How are the plants holding up with this crazy frost warning we got for tonight?
+ham_personal|Thinking of you and hoping your week gets a little less chaotic as it goes on.
+ham_personal|Did you go for your usual morning walk despite the drizzle outside?
+ham_personal|My throat hurts so much less today, I think the honey and tea trick actually worked wonders.
+ham_personal|Such a crisp morning out there! Perfect weather for a long walk if you have the time.
+ham_personal|Hope your headache finally cleared up after you took those pills earlier.
+ham_personal|Checking in to see if you managed to get outside at all today before the sun went down.
+ham_personal|The weather app says it might snow by Thursday! Can you even believe it is already that time of year?
+ham_personal|Just wanted to send a quick hello and see how your Monday is treating you so far.
+ham_personal|My vitamin D levels were a bit low so I started taking supplements, hoping my energy picks up soon.
+ham_personal|Stay warm out there today, I heard the wind chill makes it feel way below freezing.
+ham_personal|Hope you are having a nice relaxing evening on the couch after such a busy week.
+ham_personal|Hey, could I borrow your camping stove for this weekend? Going up to the lake with Sam.
+ham_personal|Thanks again for letting me use the drill yesterday. I'll drop it back on my way home from work.
+ham_personal|Do you still have that mystery novel I lent you a while back? No rush, just wondering.
+ham_personal|Can I swing by later to pick up the tupperware I left at your place last Sunday?
+ham_personal|Hey mom, could you water my plants while I'm away for the long weekend? I'll leave the spare key.
+ham_personal|Would you mind helping me move my couch this Saturday? I'll buy pizza and drinks for everyone.
+ham_personal|I found your blue sweater in the back of my car. I can bring it over tomorrow if you're around.
+ham_personal|Are you using your ladder this week? I need to clean out my gutters before the storm hits.
+ham_personal|Just dropping off the book you wanted to read. Left it on the front porch since no one was home.
+ham_personal|Could you feed my cat on Friday evening? I'll be back late and will text you the door code.
+ham_personal|Hey, do you happen to have a spare HDMI cable I could borrow for a couple of days?
+ham_personal|Thanks for the jump start this morning! You really saved me from being super late for my meeting.
+ham_personal|Can I borrow your blender for a bit? Making smoothies for the kids and ours just broke.
+ham_personal|Returning your umbrella today! Thanks for saving me from that downpour last week.
+ham_personal|Would it be okay if I parked my car in your driveway while I'm out of town next week?
+ham_personal|Hey sis, can I borrow your black heels for the wedding on Saturday? I promise to be careful.
+ham_personal|Just finished mowing your lawn too since I had the mower out anyway. Have a great evening!
+ham_personal|Could you grab my mail while I'm away until Tuesday? Thanks so much for doing this.
+ham_personal|Do you want your baking pans back now, or are you still using them for the holidays?
+ham_personal|Hey, do you have that recipe book on sourdough we talked about? Would love to look at it.
+ham_personal|Thanks for watching the dog yesterday. He was so happy when I picked him up!
+ham_personal|Can I borrow your sleeping bag for the scout trip next week? I'll make sure it's clean when I return it.
+ham_personal|I have a bunch of extra tomatoes from the garden. Want me to drop some off on my way home?
+ham_personal|Could you help me carry this heavy box upstairs sometime today? Takes two minutes.
+ham_personal|Returning your tupperware filled with leftover lasagna! Thanks again for dinner.
+ham_personal|Hey, are you done with that video game yet? No hurry, just checking in.
+ham_personal|Would you mind picking up my prescription from the pharmacy if you're already out running errands?
+ham_personal|I left my phone charger at your place over the weekend. Can I grab it sometime this week?
+ham_personal|Thanks for helping me fix my bike tire. Rides like a brand new one now!
+ham_personal|Can I borrow your projector for a movie night in the backyard this Friday?
+ham_personal|Hey, do you still need those moving boxes? I'm finally done unpacking mine and have plenty to spare.
+ham_personal|Could you water my garden tomatoes on Thursday? Looks like it's going to be super hot.
+ham_personal|Returning the jacket I borrowed. Thanks for letting me wear it, kept me really warm!
+ham_personal|Hey dad, can I borrow the truck this Saturday to pick up some lumber from the hardware store?
+ham_personal|Thanks for watering my indoor plants while I was on holiday. They look amazing!
+ham_personal|Can I borrow your ironing board for an hour? Mine is busted and I have a meeting tomorrow.
+ham_personal|Would you mind keeping an eye on my package delivery today? Don't want it sitting on the porch too long.
+ham_personal|Here is the link to the photo album from our trip <URL>. Thanks for letting me borrow your camera!
+ham_personal|Hey, could I borrow your hedge trimmer this weekend? Finally tackling the front yard bushes.
+ham_personal|Thanks for letting me crash on your couch last night. You're a lifesaver!
+ham_personal|Can I borrow your pasta maker? Trying out a new recipe for dinner tonight.
+ham_personal|Returning your yoga mat today. Thanks for letting me try it out before buying my own.
+ham_personal|Hey, do you happen to have a sewing kit I could use to fix a button on my shirt?
+ham_personal|Could you help me jump my car battery when you get a chance? No rush, just whenever you're free.
+ham_personal|Thanks for the ride to the mechanic this morning. Really appreciate the favor!
+ham_personal|Can I borrow your cooler for the beach trip this weekend? I'll return it filled with ice and snacks.
+ham_personal|Hey, do you have that password manager app recommendation handy? Mine keeps acting up.
+ham_personal|Returning your coffee grinder. Thanks for lending it, freshly ground beans make a huge difference!
+ham_personal|Would you mind checking if I left my sunglasses on your kitchen counter?
+ham_personal|Hey, can I borrow your leaf blower for an afternoon? The yard is totally covered.
+ham_personal|Hey, are you around tonight? Was thinking we could grab some tacos down the street.
+ham_personal|So glad Friday is almost here! Still on for coffee at that corner place around 10?
+ham_personal|Dinner at my parents' place this Sunday? Let me know if you can make it.
+ham_personal|We should definitely catch up over lunch this week. Tuesday works best for me.
+ham_personal|Are you free to grab a bite after work today? I'm starving.
+ham_personal|Just checking if you still want to get together for brunch this weekend.
+ham_personal|Let's meet up at the park around 2 PM and walk over to the food truck area.
+ham_personal|Hey! Do you fancy going out for sushi tonight or are you too tired?
+ham_personal|Can we reschedule our dinner plans to Thursday? Something came up tonight.
+ham_personal|I'm heading to the grocery store soon, then cooking pasta at my place. Want to join?
+ham_personal|Quick question: are you free for a quick coffee break around 3?
+ham_personal|Let me know what time you finish work today so we can plan dinner.
+ham_personal|So good talking to you earlier! Let's lock in a date for that dinner next week.
+ham_personal|Are you up for burgers and milkshakes tonight? I know a great spot.
+ham_personal|Just arrived at the cafe. Grab a table near the window if you get here first!
+ham_personal|Thinking about trying that new Thai restaurant tomorrow night. You in?
+ham_personal|Hey Mark, do you want to grab a quick sandwich together during our lunch break?
+ham_personal|Sorry I missed your call earlier! Are we still on for pizza tonight?
+ham_personal|Let's plan a weekend getaway soon. We need a proper break!
+ham_personal|My treat for lunch today since you got it last time. Sound good?
+ham_personal|Can you swing by my place around 6 so we can head to the restaurant together?
+ham_personal|Hope your meeting wraps up soon. Let me know when you're ready for lunch.
+ham_personal|We haven't seen each other in ages! Let's grab breakfast this Saturday.
+ham_personal|Fancy a pint at the local pub after work today?
+ham_personal|Checking in to see if you're still free for our usual Wednesday meetup.
+ham_personal|I brought some homemade snacks. Let's meet at the park bench around noon.
+ham_personal|Dinner is on me tonight to celebrate your new job! Name the place.
+ham_personal|Are you in the mood for Italian food tonight? I'm craving pizza big time.
+ham_personal|Let's meet outside the cinema at 7 PM sharp so we don't miss the trailers.
+ham_personal|Do you want to grab a bite to eat before we go see the movie?
+ham_personal|Hey Sarah, are you around for a quick lunch downtown today?
+ham_personal|Just finalized the reservation for Saturday night. Really looking forward to it!
+ham_personal|Let's do breakfast tomorrow morning before things get too busy.
+ham_personal|Are we still meeting up for coffee later or did you change your mind?
+ham_personal|I'm craving tacos so badly right now. Want to hit that Mexican place tonight?
+ham_personal|Let's plan a barbecue at my place this weekend if the weather stays nice.
+ham_personal|Do you have time for a quick lunch catch-up this Thursday?
+ham_personal|Hey! Are you free to grab some dim sum this Sunday morning?
+ham_personal|Just leaving the office now. See you at the diner in twenty minutes!
+ham_personal|Let's try that new bakery downtown this Saturday afternoon.
+ham_personal|Are you around for a quick bite after your class finishes?
+ham_personal|Thinking of making tacos tonight. Feel free to come over around 7 if you're free.
+ham_personal|Let's grab a coffee and chat about our travel plans for the summer.
+ham_personal|Are you up for trying out that new ramen shop near the station tonight?
+ham_personal|Just finished my workout and I'm starving. Let's get food soon!
+ham_personal|Let's meet at the usual spot around 5 PM to plan our holiday.
+ham_personal|Hey, are you free for a quick lunch date this Friday?
+ham_personal|So excited for dinner tonight! Let me know if you need a ride.
+ham_personal|Let's grab a quick bite before heading into the concert venue.
+ham_personal|Hope your day is going well. Let's definitely grab that coffee later!
+ham_personal|Hey, sorry to rush you, but are we still on for dinner at seven? Traffic is looking pretty gnarly on my end.
+ham_personal|Just missed my usual train so I'm gonna be about twenty minutes behind schedule. Save me a seat if you can!
+ham_personal|My flight just got delayed by an hour due to weather. Don't leave the airport yet, I'll text when we land.
+ham_personal|Can you send me the address of the restaurant again? My maps app keeps crashing and I am completely lost.
+ham_personal|Running a bit behind because Sam wouldn't put his shoes on. Leaving the house right now though!
+ham_personal|Stuck in standstill traffic on the bridge. Might be ten minutes late, so feel free to order a drink without me.
+ham_personal|Hey babe, I took a wrong turn somewhere near the museum and now I have no idea where I am. Can you call me?
+ham_personal|So sorry, work ran late! Heading to the station now so I should be there by 6:30.
+ham_personal|Are you at the venue yet? Parking is an absolute nightmare, I've been circling the block for fifteen minutes.
+ham_personal|Just touching down! Going to grab my bag and head straight to the pickup zone.
+ham_personal|Hey mum, bus broke down so I'm walking the last few blocks. See you in a bit!
+ham_personal|Running about ten mins behind, spilled coffee all over my shirt right as I was walking out the door. Classic me.
+ham_personal|Did you want me to pick up anything on my way over? I'm passing right by the grocery store.
+ham_personal|Turn left at the big brick church, then take the second right. If you hit the gas station you've gone too far.
+ham_personal|We are moving so slow on the highway, it's like everyone forgot how to drive today. Ugh.
+ham_personal|Just left the house, see you in twenty minutes unless I hit red lights the whole way.
+ham_personal|Heading to the gate now! Flight is boarding soon so I'll talk to you when I reach the other side.
+ham_personal|Can you check if there's any construction on Main Street? Google Maps is trying to send me that way.
+ham_personal|Sorry honey, alarm didn't go off this morning! Leaving in five minutes.
+ham_personal|I'm at the corner by the coffee shop, where are you guys sitting?
+ham_personal|My GPS is acting up and taking me through all these tiny residential streets. I'll get there eventually!
+ham_personal|Just boarded the train! Grabbed a coffee so I'm all set for the ride.
+ham_personal|Leaving the office now. See you at home for dinner in about half an hour.
+ham_personal|Flight is canceled, they are putting us on a different one tomorrow morning. So frustrating!
+ham_personal|Hey, I'm waiting at the wrong terminal! Jog over to the north entrance, I'll meet you by baggage claim.
+ham_personal|Traffic is clearing up, I should make it there right on time after all.
+ham_personal|So sorry for the radio silence, my phone battery died while I was navigating the subway tunnels.
+ham_personal|Just passed the welcome sign, almost at the cabin! Can't wait to unwind.
+ham_personal|My Uber driver took the scenic route through the industrial park for some reason. Still coming though!
+ham_personal|Running five mins late, had to run back inside because I forgot my keys.
+ham_personal|Are we meeting inside the lobby or outside by the fountain?
+ham_personal|Just got through security, heading to gate twelve now. Want me to grab you a sandwich?
+ham_personal|Hey, missing you lots! Counting down the hours until you get back home.
+ham_personal|The rain is making everyone drive at thirty miles per hour on the highway. So annoying.
+ham_personal|Just pulled into the driveway. Be inside in a minute!
+ham_personal|Took the express train instead of the local, so I'll actually be early for once!
+ham_personal|Can you drop a pin on your location? This neighborhood looks completely different at night.
+ham_personal|Running late because the dog threw up right on the rug as I was putting my coat on. Fun start to the day.
+ham_personal|Just cleared passport control. Heading to the curb now to look for your car.
+ham_personal|Hey, quick question—do you want me to take the toll road or stay on the back roads?
+ham_personal|Stuck behind a tractor on this country lane and there's no way to pass it. Going to be a bit late!
+ham_personal|Just leaving my desk now. See you at our usual spot in twenty minutes.
+ham_personal|My luggage didn't make the connecting flight, so I have to wait at the lost baggage desk. Go ahead without me!
+ham_personal|Hey, what exit was I supposed to take off the highway again?
+ham_personal|Just stepped off the bus, walking up to your building now.
+ham_personal|Sorry about the delay, had to help a neighbor jump-start their car.
+ham_personal|Almost there! Just turning onto your street.
+ham_personal|The traffic on the bypass is unreal right now. Might take the scenic route through town instead.
+ham_personal|Just got the text that your flight landed! Warming up the car and heading to the airport now.
+ham_personal|Running a bit behind schedule today, but everything is under control. See you soon!

@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 36 DIFFERENT English SMS messages of this phishing/scam type: others (fake job offers, crypto or investment schemes, loans, tech support or account verification scams).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- NETFLIX: Your account will be suspended because your payment failed, please click the link and update your payment information to continue watching NetFlix!
+- , is looking for Rs. 25,000 - 3-BHK House in ,
+- DON'T SHARE THIS WITH ANYONE (NOT EVEN GOJEK). Your SECRET VERIFICATION CODE for account LOGIN...
+- Dear consumer Your electricity will be disconnected at 9.30pm because your bill is not updated. Please Contact electricity
+- I'll call you later I'll call you later I'll call you right back Complaining to police right now. With all the call recordings
+Output format: a JSON array of 36 strings and nothing else.

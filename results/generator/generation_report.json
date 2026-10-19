@@ -1,0 +1,100 @@
+{
+  "cong_cu": "src/data/generate_ai_messages.py",
+  "llm": "Gemini gemini-3.5-flash-lite, 2026-10",
+  "ngay_parse": "2026-10-16",
+  "so_lan_goi": 27,
+  "so_lan_goi_thieu_phan_hoi": 0,
+  "tham_so": {
+    "seed": 42,
+    "oversample": 1.2,
+    "messages_per_call": 50,
+    "seed_examples_per_call": 5,
+    "min_chars": 15,
+    "max_chars": 400,
+    "max_seed_overlap": 0.8
+  },
+  "nguon_chu_de": "scam_type của IMC25 (banking, delivery, government, telecom, others, hey mum/dad) + nhóm trúng thưởng của Mishra & Soni; tin hợp lệ: tin nhắn cá nhân (theo tin ham của Mishra & Soni). Tin mẫu lấy từ tập TRAIN.",
+  "prompt_hash": "b1ee8635a598",
+  "prompts": {
+    "scam": "You are helping build a research dataset used to test SMS phishing detectors (defensive security research).\nWrite {n} DIFFERENT English SMS messages of this phishing/scam type: {topic} ({description}).\nRules:\n- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.\n- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.\n- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about {entity_pct}% of the messages and leave it out of the rest.\n- Do not number the messages and add no explanation.\nHuman-written examples of this type (for tone only; do not copy or closely paraphrase them):\n{examples}\nOutput format: a JSON array of {n} strings and nothing else.\n",
+    "ham": "You are helping build a research dataset used to test SMS phishing detectors (defensive security research).\nWrite {n} DIFFERENT English SMS messages that ordinary people send to friends or family in everyday life. Theme for this batch: {situation}.\nRules:\n- Each message is one genuine personal text of about 20 to 250 characters. Vary the length, tone and wording; do not start many messages the same way.\n- These are NOT advertisements, service notifications or scams. No requests for money, codes or passwords.\n- Use first names or no names, and no real people or brands. Only about {entity_pct}% of the messages may contain <URL> or <PHONE_NUMBER> (written exactly like that); the rest contain none.\n- Do not number the messages and add no explanation.\nHuman-written examples (for tone only; do not copy or closely paraphrase them):\n{examples}\nOutput format: a JSON array of {n} strings and nothing else.\n"
+  },
+  "theo_chu_de": {
+    "scam/banking": {
+      "yeu_cau": 180,
+      "nhan_ve": 180,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 150,
+      "muc_tieu": 150
+    },
+    "scam/delivery": {
+      "yeu_cau": 84,
+      "nhan_ve": 84,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 70,
+      "muc_tieu": 70
+    },
+    "scam/government": {
+      "yeu_cau": 72,
+      "nhan_ve": 72,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 60,
+      "muc_tieu": 60
+    },
+    "scam/telecom": {
+      "yeu_cau": 72,
+      "nhan_ve": 72,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 60,
+      "muc_tieu": 60
+    },
+    "scam/prize": {
+      "yeu_cau": 84,
+      "nhan_ve": 84,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 70,
+      "muc_tieu": 70
+    },
+    "scam/others": {
+      "yeu_cau": 72,
+      "nhan_ve": 72,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 60,
+      "muc_tieu": 60
+    },
+    "scam/family_impersonation": {
+      "yeu_cau": 36,
+      "nhan_ve": 36,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 30,
+      "muc_tieu": 30
+    },
+    "ham/personal": {
+      "yeu_cau": 600,
+      "nhan_ve": 600,
+      "loai_do_dai": 0,
+      "loai_trung": 0,
+      "loai_giong_mau": 0,
+      "giu": 500,
+      "muc_tieu": 500
+    }
+  },
+  "tong": {
+    "scam": 500,
+    "ham": 500
+  }
+}

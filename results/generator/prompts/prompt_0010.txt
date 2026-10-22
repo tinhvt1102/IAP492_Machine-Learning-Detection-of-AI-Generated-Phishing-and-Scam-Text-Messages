@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 36 DIFFERENT English SMS messages of this phishing/scam type: telecom (mobile or internet bill overdue, SIM suspension, free upgrade, data bonus).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Three: We regret to inform you that your allowances have been stopped, please confirm your information at: <URL>
+- Dear customer your number has been suspended for please submit your in your <URL>ease call customer care: <PHONE_NUMBER> <URL>ank You
+- Dear customer your sim Document has been expired . Your service block within call us immediately. thanks you
+- Hi, it's AT&T. Great news! You've paid off at least 50% of your current phone. If you're interested in learning about our offer on the iPhone 13 , reply YES to receive details.
+- Your port request has been approved and is ready for Port activation. Hello! In order to stay connected, please register your SIM for . Bring your ID and proof of residence to an MTN store or participating retailer. Thank you.
+Output format: a JSON array of 36 strings and nothing else.

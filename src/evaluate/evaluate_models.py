@@ -28,10 +28,24 @@ DISPLAY = {"lr": "LR", "mnb": "MNB", "roberta": "RoBERTa", "deberta": "DeBERTa"}
 
 
 # ---------------------------------------------------------------- dự đoán
+def find_vectorizer(baseline_dir):
+    """Tìm file TF-IDF đã fit trên train (tên file có 'vectorizer' hoặc 'tfidf', đuôi .joblib, không phải lr/mnb)."""
+    d = Path(baseline_dir)
+    cands = [f for pat in ("*vectoriz*.joblib", "*tfidf*.joblib") for f in sorted(d.glob(pat))]
+    cands = list(dict.fromkeys(f for f in cands if not f.name.startswith(("lr_", "mnb_"))))
+    if not cands:
+        raise FileNotFoundError(f"Không thấy file vectorizer (.joblib) trong {d}. Các file hiện có: "
+                                f"{sorted(x.name for x in d.glob('*'))}")
+    if len(cands) > 1:
+        print(f"[WARN] Có {len(cands)} file vectorizer ứng viên {[c.name for c in cands]}; dùng {cands[0].name}")
+    print(f"[INFO] Dùng vectorizer: {cands[0]}")
+    return cands[0]
+
+
 def predict_baseline(name, texts, baseline_dir):
     """LR/MNB: dùng đúng TF-IDF đã fit trên train, rồi model.predict."""
     import joblib
-    vec = joblib.load(Path(baseline_dir) / "tfidf_vectorizer.joblib")
+    vec = joblib.load(find_vectorizer(baseline_dir))
     model = joblib.load(Path(baseline_dir) / f"{name}_model.joblib")
     return model.predict(vec.transform(texts)).astype(int).tolist()
 

@@ -1,0 +1,501 @@
+# Sinh bởi generate_ai_messages.py | LLM: Gemini gemini-3.5-flash-lite, 2026-10 | ngày parse: 2026-10-16 | 500 tin
+banking|Apex Trust Alert: An unauthorized transaction of $412.50 was flagged at retail merchant #8831. If this was not you, confirm immediately at <URL>
+banking|NovaBank: Your online access has been locked following three incorrect passcode entries. Dial <PHONE_NUMBER> to connect with fraud assistance.
+banking|URGENT - Horizon Union: We detected a new device sign-in near Dallas, TX. If you did not authorize this session, please review your security settings now.
+banking|Summit Credit: A temporary restriction was placed on your debit card ending in 8421 due to suspicious POS activity.
+banking|Meridian Bank Security: We updated our authentication standards. Customers who fail to update their profile by midnight will experience suspended transfers: <URL>
+banking|Silverline Financial Notice: Your monthly statement generated a compliance alert. Contact our customer resolution team at <EMAIL_ADDRESS>.
+banking|BluePeak Pay: Did you authorize a transfer of $1,250.00 to account **9912? Reply NO to cancel or YES to approve this transaction.
+banking|ALERT: Ironclad Bancorp system maintenance requires re-validation of your mobile credentials. Access your account dashboard to proceed: <URL>
+banking|Crestview Federal: Suspicious transfer attempt of $880.00 prevented. Call our security desk at <PHONE_NUMBER> immediately to verify your identity.
+banking|NorthStar Mutual: Your virtual card has been placed on hold following unusual international charges.
+banking|Solis Bank Msg: Unrecognized attempt to change account phone number. If unauthorized, verify via <URL> to prevent account takeover.
+banking|TerraBank Card Services: Payment of $249.99 to DigitalMedia Sub was declined due to verification mismatch. Contact support.
+banking|Beacon Credit Union: Electronic KYC documentation needed for account #5019. Submit requested files to <EMAIL_ADDRESS> within 24 hours.
+banking|Security Team at Oakwood Savings: Multiple failed card PIN attempts detected at an external ATM. Your card has been deactivated for safety.
+banking|Pinnacle Bank Alert: A direct debit of $620.00 is scheduled for processing. If you did not initiate this, review activity: <URL>
+banking|Zenith Trust: Your checking account has been flagged for non-compliance with updated regional regulations. Please resolve at <URL>
+banking|Altas State Bank: High-risk sign-on detected from an unfamiliar browser in Berlin, Germany. Secure your login instantly at <URL>
+banking|VelocePay notification: Your digital wallet was linked to a new smartphone. If this wasn't you, call <PHONE_NUMBER> immediately.
+banking|Vanguard Heritage Bank: A pending withdrawal of $3,400.00 requires immediate two-factor approval. Open session: <URL>
+banking|Notice from Riverdale Credit: A restriction was placed on all outgoing ACH transfers on your primary account.
+banking|Kestrel Federal: Your account verification expired on 10/12. Re-authenticate to avoid daily transaction limits: <URL>
+banking|Clearwater Bancorp: We blocked an in-store transaction of $1,140.89 at TechDepot. Text back STOP to block all future charges.
+banking|AuraBank: Your business credit line has been temporarily frozen pending signature card renewal. Reach us at <EMAIL_ADDRESS>.
+banking|Harbor Bank Alert: Account #3391 was accessed from an unrecognized IP address. Call our emergency response line at <PHONE_NUMBER>.
+banking|Equinox Financial: We cannot process your incoming wire of $2,850 without updated tax identification. Visit <URL> to update.
+banking|Sterling Union: Security notice regarding your Mastercard ending in 1184. Potential breach detected at merchant terminal.
+banking|Redwood Bank: Your wire transfer #TX-9021 has been paused for fraud review. Confirm authorization right now: <URL>
+banking|Cobalt Bank Customer Alert: You have 1 unread critical alert concerning identity theft prevention. Log in to your secure inbox: <URL>
+banking|First Liberty Mutual: Suspected duplicate charge of $320.15 found. Please verify through our dispute hotline: <PHONE_NUMBER>
+banking|Opal Financial: Due to new anti-money-laundering guidelines, your online profile must be reverified. Failure to comply leads to card suspension.
+banking|Trillium Bank: Transaction $78.50 at SuperMart flagged. Reply YES if genuine, or reply NO to initiate fraud dispute protocol.
+banking|Sentinel Trust: Your payment card #0923 was deactivated following high-risk online activity. Restore access via <URL>
+banking|Pacific Crest Savings: A request to change your registered mailing address has been submitted. If this was not requested by you, call <PHONE_NUMBER>.
+banking|Monarch Union: Payment decline alert. Automated billing for cloud subscription was rejected due to risk parameters.
+banking|Boreal Federal Bank: Critical security patch applied to your mobile banking account. Confirm customer identification at <URL>
+banking|Lakeside Credit: Unsettled ledger balance detected on secondary account. Contact support desk at <EMAIL_ADDRESS> to prevent service interruption.
+banking|Apex Trust: Foreign exchange wire of $5,000.00 initiated to overseas recipient. Stop this transaction immediately at <URL>
+banking|Solstice Bancorp: Your automated overdraft protection was disabled after unusual withdrawal attempts.
+banking|Veritas Bank Alert: Account access suspended. Please submit photo identification to verify ownership: <URL>
+banking|Prism Financial: Unrecognized contactless payment attempt of $450.00 registered. Call fraud prevention team at <PHONE_NUMBER>.
+banking|Orion Credit Union: Security token desynchronized. Your digital banking features are currently limited until re-synced.
+banking|Highland Bank: Unusual merchant debit initiated from abroad. Tap to review and prevent further charges: <URL>
+banking|Timberline Mutual: New beneficiary added to your wire dispatch profile. If you did not approve this, contact <EMAIL_ADDRESS> immediately.
+banking|Gateway State Bank: Online banking profile scheduled for closure due to inactivity and missing KYC records. Prevent closure: <URL>
+banking|Haven Union Alert: Debit card ending in 7741 restricted due to repeated mismatched zip code entries at pump station.
+banking|Apex Trust Alert: An unrecognized login from IP 192.168.1.1 was detected. If this was not you, secure your profile at <URL>
+banking|URGENT: Silverline Credit Card ending 4402 has been suspended due to consecutive failed PIN entries. Call verification desk <PHONE_NUMBER>
+banking|BluePeak CU: Did you attempt a transfer of $840.00 to account ending 9118? Reply YES to authorize or NO to cancel immediately.
+banking|Your Crest Federal online access has been placed on hold pending updated tax identification. Visit <URL> to prevent service termination.
+banking|Northway Bank Notice: A charge of $1,250.99 at Electronics Depot was declined. Confirm your identity by contacting <PHONE_NUMBER> today.
+banking|Valence Pay: New device registered in Lisbon, Portugal. If unauthorized, visit <URL> to revoke access immediately.
+banking|SECURITY: Unusual debit card activity detected on your Solis Financial account. Please contact fraud prevention via <EMAIL_ADDRESS>.
+banking|Dear customer, your Oakhaven Savings account requires immediate profile re-certification to maintain outward wire privileges.
+banking|FinPoint Alert: A temporary restriction was placed on card ending 8831. Unlock your card now at <URL>
+banking|TerraBank security: $420.00 withdrawal attempt blocked. If this was you, reply 1. If not, reply STOP to lock card.
+banking|Notice from Meridian Union: Your mobile banking credentials will expire in 2 hours. Renew online: <URL>
+banking|Apex Trust: Payment of $75.20 to GlobalStreaming was declined. Please verify your billing details to maintain active status.
+banking|ATTN: Vanguardian Mutual detected login from unauthorized browser. Immediate identity confirmation required at <URL>
+banking|Beacon Credit Union: Suspicious international transaction of 210 EUR attempted. Speak with a fraud specialist at <PHONE_NUMBER>
+banking|Your Summit One card is blocked. Please confirm recent online purchases to reactivate your spending limit immediately.
+banking|ZetaBank ALERT: Two-factor authentication disabled on your profile. Reset security settings immediately at <URL>
+banking|Customer notification: A hold has been placed on incoming direct deposits for account ending 3091. Call <PHONE_NUMBER>
+banking|Pinnacle Horizon: New payee 'Robert Davis' added successfully. If you did not make this request, email us at <EMAIL_ADDRESS>
+banking|Alden State Bank: Unsuccessful sign-in attempt from Android device. Secure your funds right away: <URL>
+banking|Security Desk: Card transaction for $649.00 flagged as potential fraud. Reply NO if you did not authorize this charge.
+banking|Your Crestview account status has changed to RESTRICTED due to incomplete KYC documentation. Resolve via <URL>
+banking|Ironwood Financial: An automated transfer of $2,300.00 is scheduled for processing. To cancel, dial <PHONE_NUMBER>.
+banking|Alert: Nova Bank card temporarily frozen after multiple foreign ATM attempts. Please verify ownership promptly.
+banking|Dear Client, your Solaris Card was charged $312.44 at FlightHub. If unauthorized, submit a dispute form at <URL>
+banking|Harborview CU: Identity check overdue. Failure to comply within 24 hours will result in permanent account deactivation.
+banking|Sterling Union: We noticed a change to your primary email address. If this was not requested, access <URL>
+banking|NOTICE: Suspicious activity on Vantage Mutual check card. Call customer assistance at <PHONE_NUMBER> to confirm transactions.
+banking|Kestrel Bank: $1,100 Zelle payment pending authorization. Follow link to verify recipient: <URL>
+banking|URGENT from Cobalt Financial: Your credit line has been locked due to irregular activity. Please review account profile.
+banking|Providence Trust: Payment of $499.00 to TechStore was stopped. To clear this charge, go to <URL>
+banking|Atlas Bancorp: We blocked an overseas withdrawal attempt of $950.00. Contact our support line <PHONE_NUMBER>
+banking|Cardholder Notice: Account 8021 has been flagged for non-compliance. Reply Y to verify or N to close permanently.
+banking|Frontier CU: Your contactless payment feature has been disabled. Restore access via online verification at <URL>
+banking|Redwood Bank: Did you authorize a transfer of $500.00 to John M.? If not, report immediately to <EMAIL_ADDRESS>
+banking|ALERT: Multi-factor token requested from unknown location. If not you, block card at <URL>
+banking|Monarch Trust: Your debit card is restricted. To speak with our 24/7 security team, please dial <PHONE_NUMBER>
+banking|Equinox Financial: Address update submitted. If you did not change your mailing details, log in immediately.
+banking|Boreal Bank Alert: Wire transfer of $4,800.00 initiated. If this was not authorized by you, visit <URL> immediately.
+banking|Cascade CU: Payment of $89.99 declined due to incorrect billing zip code. Update info via <URL>
+banking|Notice from Haven State: Your merchant payment was rejected due to risk safeguards. Contact support desk at <PHONE_NUMBER>
+banking|Onyx Federal: A temporary hold is placed on your checking account following consecutive failed logons.
+banking|Highland Bank: Unusual sign-in detected from Chrome on Windows. Re-authenticate your session here: <URL>
+banking|Urgent from Solas Mutual: $3,000 transfer queued. Reply STOP to cancel or contact fraud team at <EMAIL_ADDRESS>
+banking|Vanguardia CU: Your overdraft protection has been modified. Please confirm recent profile activity.
+banking|Pacific Crest Bank: Security update required. Your debit card will be disabled within 12 hours unless verified at <URL>
+banking|Apex Trust: We noticed an unusual transaction of $849.00 on your debit card. If this wasn't you, secure your account at <URL> immediately.
+banking|Your First National card ending in 4092 has been temporarily frozen due to potential fraud. Call <PHONE_NUMBER> to speak with security.
+banking|SECURITY ALERT: Your Zenith Bank online profile was accessed from an unrecognized device in a foreign country. Review activity: <URL>
+banking|Alert from Metro Bank: A payment of $320.50 to Global Retail was declined. Verify your identity now to restore card access: <URL>
+banking|Pinnacle Credit Union: Your account is scheduled for restriction because your KYC verification is incomplete. Update details here <URL>
+banking|Notice: We detected a password reset request for your Horizon Bank account. If you did not initiate this, please call <PHONE_NUMBER>.
+banking|Citadel Bank Notice: Your debit card has been disabled following suspicious activity. To reactivate, verify your PIN at <URL>
+banking|Dear Apex Cardholder, your monthly statement is ready, but first you must confirm your billing address at <URL> to avoid fees.
+banking|Action Required: Your Vanguard Bank account has been limited due to regulatory compliance. Resolve this issue by visiting <URL>
+banking|Oceanic Trust Security: Unrecognized login attempt blocked on your mobile banking app. Secure your credentials at <URL>
+banking|Urgent from Sterling Bank: Your account will be suspended within 24 hours unless you re-verify your SSN via <URL>
+banking|A pending wire transfer of $1,250 on your commercial account requires your immediate authorization. Confirm via <URL>
+banking|Your Nexus Bank credit card was used at an ATM in another state. Was this you? Reply YES or NO, or visit <URL>
+banking|Security Warning: Multiple failed login attempts detected on your online portal. Your account is now locked. Unlock at <URL>
+banking|Beacon Bank Update: Due to system upgrades, all users must re-authenticate their login credentials by tonight. <URL>
+banking|Fraud Dept: We intercepted a suspicious Zelle transfer from your checking account. Call <PHONE_NUMBER> to cancel it.
+banking|Your credit card ending in 8813 has been locked for your protection after an online purchase attempt. Secure it at <URL>
+banking|Atlas Bank: Your account features have been restricted pending address confirmation. Update your info at <URL>
+banking|Attention Capital Trust User: Your debit card is blocked due to expiration of security certificates. Renew at <URL>
+banking|We detected a new login to your Summit Bank account from an IP address in Europe. If this was not you, click <URL>
+banking|Your account has been flagged for abnormal activity. To prevent permanent closure, please confirm your identity at <URL>
+banking|Sanitized Alert: Your Prime Bank rewards balance is expiring. Claim your cash back bonus by logging into <URL>
+banking|Security Notice: Your financial profile requires immediate review to comply with new federal guidelines. Details: <URL>
+banking|Your Heritage Bank debit card has been restricted due to suspected skimming. Order a replacement card via <URL>
+banking|Alert: A withdrawal of $500.00 was attempted on your account. If unauthorized, contact support at <PHONE_NUMBER>.
+banking|Equinox Bank: Your mobile banking access has been suspended. Verify your phone number to restore service: <URL>
+banking|Urgent Alert: Your credit limit has been temporarily reduced because of irregular spending patterns. Check details: <URL>
+banking|Vanguard Trust: We need to verify your recent international wire transfer. Please connect with an agent at <PHONE_NUMBER>.
+banking|Your card ending in 3301 was declined at a local merchant. Review your recent activity and update preferences: <URL>
+banking|Notice from Beacon Financial: Your account is currently under review for unusual activity. Complete verification at <URL>
+banking|Federal Credit Union Security: An unauthorized attempt was made to change your email address. Secure account: <URL>
+banking|Your loan payment of $415.00 failed to process. Update your linked bank account information immediately at <URL>
+banking|Apex Bank Fraud Prevention: We blocked a suspicious purchase on your card. Verify your identity by visiting <URL>
+banking|Important message from Sterling Trust: Your online banking session has expired. Re-login securely using <URL>
+banking|Card Services Alert: Your account was accessed from a new browser. If you did not do this, call <PHONE_NUMBER> now.
+banking|Your Horizon Bank debit Mastercard is on hold. Complete the mandatory security questionnaire at <URL>
+banking|Security Update: Please verify your contact details to ensure uninterrupted access to your online statements: <URL>
+banking|Atlas Credit: We noticed a suspicious balance transfer request. To cancel this transaction, please call <PHONE_NUMBER>.
+banking|Your checking account has a negative balance alert. Deposit funds or review your transaction history at <URL>
+banking|Urgent: Your Pinnacle Bank account requires immediate re-verification due to a security breach. Go to <URL>
+banking|Fraud Alert: A transaction of $1,500 was flagged on your credit card. Confirm or deny this charge at <URL>
+banking|Notice from Metro Financial: Your PIN has been locked due to incorrect entry attempts. Reset it at <URL>
+banking|Your security questions need to be updated to meet our new compliance standards. Update them via <URL>
+banking|Citadel Trust: A direct deposit was rejected by your bank. Verify your routing and account numbers at <URL>
+banking|Account Protection Team: Unusual login activity detected from your profile. Secure your account now at <URL>
+banking|Apex Bank: We detected an unusual sign-in attempt from an unrecognized device in another state. If this was not you, secure your account immediately at <URL>.
+banking|Security Alert from Vanguard Credit: Your debit card has been temporarily locked due to multiple incorrect PIN entries at an ATM. Call <PHONE_NUMBER> to verify your identity.
+banking|Your Zenith Trust account statement for this month is ready. Please log in through our secure portal at <URL> to review recent pending transactions.
+banking|Notice from First Capital: A wire transfer of $1,450.00 is pending from your checking account. If you did not authorize this, cancel it now: <URL>
+banking|Onyx Financial: We noticed a new beneficiary was added to your profile. If you did not make this change, please contact support at <PHONE_NUMBER> right away.
+banking|Silverline Bank: Your online banking access is restricted until you update your tax residency status. Complete the form here: <URL>
+banking|Important message from Horizon Mutual: A recent card payment was declined due to security policies. Verify your card details at <URL> to restore full functionality.
+banking|Beacon Bank Alert: We have placed a temporary hold on your savings account for your protection. Please reach out to <PHONE_NUMBER> for assistance.
+banking|Your Meridian Card ending in 4092 has been frozen. To lift the restriction, please verify your recent purchases by visiting <URL>.
+banking|Credit Union Notice: An attempt to reset your online password was initiated. If you did not request this, please secure your profile at <URL>.
+banking|Crestline Bank: Due to updated security regulations, you must re-verify your residential address. Update your info today at <URL> to avoid account disruption.
+banking|Atlas Financial: We have detected suspicious activity linked to your credit line. To prevent unauthorized charges, please verify your identity at <URL>.
+banking|Northstar Bank: Your monthly loan payment could not be processed. Please update your billing details immediately using <URL> to avoid late fees.
+banking|Pinnacle Trust: A security alert has been triggered on your account. Please log in at <URL> to confirm your recent transactions.
+banking|Redwood Bank: Your account password was recently changed from a browser in a foreign country. If this was you, ignore this message. Otherwise, visit <URL>.
+delivery|SwiftBox Logistics: Your parcel #88392 is currently on hold. An unpaid customs fee of $2.50 is required before dispatch. Pay at <URL> to release.
+delivery|Your ParcelPost shipment could not be delivered today because the street number is missing. Update your address immediately via <URL>.
+delivery|ExpressCourier notification: Delivery attempt failed for item TX-9921. To schedule a free redelivery, please call our automated line at <PHONE_NUMBER>.
+delivery|GlobalShip: We tried dropping off your box, but nobody was home. Select a new delivery slot or authorize a safe drop at <URL>.
+delivery|A pending delivery from ZiggleStore requires a $1.99 handling fee. If not settled within 24 hours, the package goes back to the warehouse. Link: <URL>
+delivery|CargoNet Alert: Your international shipment is currently held at customs pending document verification. Details at <URL>
+delivery|QuickDrop: We have a package waiting for you, but your contact number is invalid. Reply to this text or visit <URL> to fix.
+delivery|Attention recipient: Your freight consignment #990-B has arrived at the local depot. Book your final mile delivery using <URL>
+delivery|ShipFast: Package delivery delayed due to severe weather in your region. Track your revised ETA at <URL>
+delivery|PostalExpress: Final notice regarding your undelivered parcel. A small storage fee applies. Claim it now at <URL>
+delivery|BoxDrop Logistics: Your order was returned to sender due to an incomplete delivery address. Contact support at <EMAIL_ADDRESS> for help.
+delivery|ParcelDirect: We encountered an issue delivering your courier bag. Please verify your postal code at <URL> to proceed.
+delivery|SwiftTransit: Your delivery is scheduled for tomorrow between 9 AM and 1 PM. Ensure someone is available to sign or manage it at <URL>
+delivery|NexusShipping: Customs clearance failed for item #5541. Pay the remaining tariff online: <URL>
+delivery|ApexCargo: Your parcel is on hold at our sorting facility. Update delivery preferences via <PHONE_NUMBER>
+delivery|HomeDelivery Network: We missed you today! Your package is safely stored at our depot. Reschedule pickup or delivery at <URL>
+delivery|PrimeDrop: Your monthly subscription box is ready, but your payment method expired. Update details at <URL>
+delivery|SecureFreight: Action required. Your cargo is awaiting security clearance before final dispatch. Info: <URL>
+delivery|SpeedyParcels: Delivery #4482 requires a signature. Sign digitally or redirect to a local locker at <URL>
+delivery|AlphaCourier: Your shipment has an incorrect zip code. Please correct it immediately at <URL> to avoid return fees.
+delivery|MetroLogistics: Courier could not access your building buzzer. Provide gate instructions at <URL>
+delivery|ExpressTransit: A $3.75 redelivery surcharge is pending for your container. Pay securely at <URL>
+delivery|VeloDeliveries: Your package status has been updated to 'Exception'. Check details and resolve at <URL>
+delivery|UniShip: We hold an unclaimed parcel under your name. Verify identity to claim at <URL>
+delivery|StarCargo: Your overseas delivery requires an import duty payment of $4.10. Complete payment here: <URL>
+delivery|DirectPost: Delivery update. Your parcel has been rerouted to the nearest sorting hub due to a routing error.
+delivery|OmniLogistics: We are holding your package at the regional sorting center. Call <PHONE_NUMBER> to arrange pickup.
+delivery|SwiftParcel: Your order #7712 is out for delivery with driver Dave. Track live at <URL>
+delivery|ZetaCourier: Address verification needed for your incoming parcel. Please confirm via <URL> within 48 hours.
+delivery|PioneerShipping: Your delivery was canceled due to inaccessible road conditions. Updates available at <URL>
+delivery|EliteFreight: Customs fees due on imported goods. Settle the balance at <URL> to avoid confiscation.
+delivery|TransitPro: Your package dispatch was delayed. We apologize for the inconvenience and offer free priority upgrade.
+delivery|FlashDeliveries: Package #1029 is awaiting payment of local taxes. Access invoice at <URL>
+delivery|NovaCourier: Delivery attempt 1 of 3 failed. Please ensure clear path to entrance for tomorrow's attempt.
+delivery|SkylineShip: Your shipment requires manual sorting. Expect a 24-hour delay in your local area.
+delivery|HorizonLogistics: A discrepancy was found in your parcel weight. Pay the adjusted postage at <URL>
+delivery|SummitCargo: Your delivery address lacks building name/number details. Update promptly at <URL>
+delivery|AtlasPost: Final warning. Your parcel is scheduled for auction if not claimed via <URL> today.
+delivery|TitanDeliveries: Courier left a delivery card at your door. Enter the card reference number at <URL>.
+delivery|ZenithShip: Your goods are cleared by customs and will be handed to the local courier shortly.
+delivery|VanguardLogistics: Unpaid customs duty on shipment ID 3301. Settle via <URL> to release.
+delivery|RedLine Courier: We have your shipment. Please confirm your delivery instructions at <URL>.
+delivery|SwiftCargo: Your shipment is currently on hold at our sorting hub. To schedule redelivery, please update your details here: <URL>
+delivery|GlobalPost Notice: We attempted delivery of parcel #GP-8831 today but nobody was home. Reschedule via <URL>
+delivery|Your ExpressDrop order requires an address correction before dispatch. Visit <URL> to prevent return to sender.
+delivery|CourierAlert: Customs clearance fee of $2.40 is pending for your international package. Pay now at <URL>
+delivery|ZipShip: Package could not be delivered due to an incomplete house number. Please update info at <URL>
+delivery|Notice from SpeedLogistics: Your box is waiting at the local depot. Confirm your street address at <URL>
+delivery|FlashFreight: Delivery failed today because of incorrect postal code details. Verify your address: <URL>
+delivery|Your AeroParcel delivery is suspended. A small processing fee is required. Proceed to <URL>
+delivery|PrimeShipment: We need your apartment number to complete the delivery tomorrow. Update at <URL>
+delivery|NexusCourier: Final reminder regarding your pending shipment holding fee. Pay immediately at <URL>
+delivery|StarExpress: Your package has an invalid zip code. Please rectify this issue using <URL>
+delivery|DirectPost: Delivery driver could not locate your address. Please provide instructions via <URL>
+delivery|MegaLogistics: Import duties are unpaid on your incoming order. Settle the balance at <URL>
+delivery|SwiftDrop: Your parcel is ready for dispatch but requires confirmation of delivery instructions.
+delivery|ApexCourier: We left a delivery notice at your door. Check your status online immediately.
+delivery|TrackRoute: Your shipment status has been updated to exception. Contact support for details.
+delivery|BlueSky Logistics: Delivery attempt 1 of 3 failed. Please ensure someone is available tomorrow.
+delivery|RapidTransit: Your consignment requires manual address verification before our driver can depart.
+delivery|OmniShip: Warehouse holding charges will apply if your parcel is not claimed by Friday.
+delivery|VeloParcel: The recipient address on your order is incomplete. Please check your account.
+delivery|Skyline Delivery: Due to severe weather, your package delivery is temporarily postponed.
+delivery|ParcelDirect: Your courier has reported an incorrect street name. Action is required.
+delivery|HyperShip: We attempted to deliver your items at 14:30. No secure location was found.
+delivery|AlphaFreight: Your international consignment is detained at customs pending documentation.
+delivery|TransitPro: Please confirm your delivery time slot for tomorrow morning to avoid delays.
+delivery|SwiftCargo: Action required! Your package LX-9042 is stuck at the sorting facility due to an incomplete street address. Update here: <URL>
+delivery|GlobalPost: Final attempt to deliver your order will be made tomorrow. Verify delivery instructions at <URL>
+delivery|ExpressDrop Alert: Your box cannot be delivered because the contact phone number was invalid. Fix it here: <URL>
+government|HM Revenue & Customs: Your outstanding tax rebate of $450.20 is ready for direct deposit. Claim your funds securely via <URL> before the deadline.
+government|Notice from State Transit Authority: You have 1 unpaid toll violation on file. Avoid additional late fees by settling the balance at <URL>.
+government|Department of Motor Vehicles: Your driver license expires in 30 days. Renew online now to avoid service interruption: <URL>
+government|Federal Grant Program: You have been pre-approved for a community welfare support payment of $1,200. Verify your identity at <URL> to initiate transfer.
+government|City Parking Enforcement: Final reminder regarding unpaid citation #TF-89421. Pay immediately to prevent vehicle immobilization: <URL>
+government|Official Notice: Your annual vehicle registration is due. Complete your renewal documents by visiting <URL> today.
+government|Social Security Administration: Important update regarding your cost of living adjustment. Please review your updated benefit schedule at <URL>
+government|State Department of Revenue: Your electronic tax assessment has been processed. Access your statement and claim any pending refund at <URL>
+government|Metropolitan Transit: Your electronic toll pass balance is critically low. Top up immediately at <URL> to prevent service blockage.
+government|Global Relief Fund and Ministry of Social Welfare: A disaster relief subsidy of $850 has been allocated to your account. Claim now: <URL>
+government|Public Works Department: Your property tax installment is overdue. Settle the balance immediately via <URL> to avoid legal action.
+government|National Health Service: Your dental care voucher is available for collection. Visit <URL> to register your details and receive your code.
+government|Municipal Court System: An arrest warrant has been issued due to unpaid municipal fines. Resolve your case urgently by calling <PHONE_NUMBER>.
+government|Federal Student Aid Bureau: Your education grant disbursement is pending verification. Update your banking details at <URL> to proceed.
+government|Department of Labor: Your unemployment benefit claim requires further documentation. Submit your files securely through <URL>
+government|Customs and Border Protection: A parcel addressed to you is being held at the facility pending customs duty payment of $24.50. Pay at <URL>
+government|Ministry of Finance: Your fiscal year stimulus package is ready for disbursement. Confirm your banking details by visiting <URL>
+government|State Highway Patrol: Unpaid speeding violation recorded on your record. Clear the fine at <URL> to avoid license suspension.
+government|County Assessor Office: Your property tax rebate check was returned by the post office. Update your mailing address at <URL>
+government|Internal Revenue Service: We attempted to deliver your tax refund twice. Please confirm your direct deposit details at <URL>
+government|City Water and Power: Your municipal utility account is scheduled for disconnection today due to non-payment. Pay now at <URL>
+government|Department of Social Services: Your food assistance benefits have been renewed for the upcoming quarter. View your new balance at <URL>
+government|National Passport Agency: Your passport renewal application is missing a required document. Upload the missing file at <URL>
+government|State Treasury: Unclaimed funds in your name have been reported by financial institutions. Initiate your claim process at <URL>
+government|Municipal Traffic Division: You have accrued 3 unpaid parking tickets. Failure to respond within 48 hours will result in court summons.
+government|Environmental Protection Agency: Your green energy home improvement rebate of $500 is approved. Claim your funds at <URL>
+government|Department of Veterans Affairs: Important changes to your medical coverage require your review. Sign in to your portal at <URL>
+government|State Housing Authority: Your rental assistance application has been approved. Complete the final verification steps at <URL>
+government|Federal Bureau of Investigation: An official subpoena has been issued in your name. Contact the investigator immediately at <PHONE_NUMBER>
+government|Ministry of Immigration: Your permanent residency card is ready for dispatch. Confirm your current residential address at <URL>
+government|City Sanitation Department: Your commercial waste disposal permit requires annual renewal. Submit your renewal form via <URL>
+government|Department of Agriculture: Your farm subsidy payment of $3,400 has been cleared. Verify your routing number at <URL>
+government|State Board of Elections: Your voter registration status has been updated. Verify your polling location and details at <URL>
+government|National Pension Bureau: Your monthly pension statement is now available for review. Access your secure portal at <URL>
+government|Department of Commerce: Your small business economic injury disaster loan status has changed. Check your dashboard at <URL>
+government|Metropolitan Water District: Emergency pipe repair surcharge added to your account. Pay your revised bill online at <URL>
+government|Federal Tax Authority: Your annual assessment is finalized with a credit of $450.00. Claim your funds immediately at <URL>.
+government|Warning from City Toll Services: You have one unpaid bridge crossing fee of $14.50. Avoid late penalties by paying now: <URL>
+government|State Driver Bureau notice: Your vehicle registration expires in 7 days. Renew online to prevent suspension of driving privileges at <URL>
+government|Department of Labor: Your unemployment benefits claim requires immediate identity confirmation. Access your secure portal at <URL>
+government|Municipal Traffic Division: An overdue parking violation has been transferred to collections. Settle the balance immediately via <URL>
+government|Central Benefits Office: Your monthly stipend has been processed but requires banking verification. Update your details at <URL>
+government|Notice: Your municipal property tax installment is overdue. Pay before the end of the week to avoid additional court costs.
+government|Internal Revenue Service Alert: We attempted to deliver your electronic refund of $1,240.00 but encountered an error. Fix it at <URL>
+government|State Highway Patrol: You have an unresolved speeding fine from Route 9. Call our automated payment line at <PHONE_NUMBER> to resolve.
+government|Public Health Department: Your mandatory health grant payment is ready for transfer. Complete the secure verification form at <URL>
+government|County Clerk Office: Your driver's license renewal application is incomplete. Please finish the process by visiting <URL>
+government|Federal Student Aid: Your forgiveness grant of $5,000 has been approved provisionally. Validate your student status at <URL>
+government|City Transit Authority: Unpaid congestion charges are accruing interest. Settle your account today at <URL>
+government|Government Subsidy Board: Your energy relief rebate of $300 is waiting in our system. Claim it now using <URL>
+government|Department of Taxation: We found a discrepancy in your recent filing resulting in a small balance due. Review details at <URL>
+government|Social Security Administration: Your file requires a mandatory annual review to continue receiving payments. Contact <PHONE_NUMBER>
+government|State Revenue Department: You have an unclaimed tax credit from previous fiscal years. File your electronic claim via <URL>
+government|Municipal Court: Failure to appear for your traffic summons has resulted in a bench warrant notice. Call <PHONE_NUMBER> urgently.
+government|Department of Motor Vehicles: Your address change notification was not received. Update your records immediately at <URL>
+government|National Pension Scheme: Your retirement account distribution is on hold due to missing security credentials. Update at <URL>
+government|Customs and Border Protection: A parcel addressed to you is being held for unpaid import duties. Pay the fee at <URL>
+government|Housing Assistance Board: Your rental subsidy voucher for next month has been generated. Confirm receipt by replying to this text.
+government|State Treasury: Your unclaimed property check remains uncashed. Request a reissue through our portal at <URL>
+government|Department of Water and Power: Your drought relief credit has been applied. View the updated billing statement at <URL>
+telecom|AeroMobile: Your recent auto-pay failed. Please update your billing info immediately to prevent service interruption: <URL>
+telecom|FINAL NOTICE: Your SwiftLink broadband will be disconnected today due to an unpaid balance of $45.99. Pay now at <URL>
+telecom|Hey valued customer, you have unused high-speed data remaining. Claim your 10GB bonus before midnight by visiting <URL>
+telecom|Your Nexus Telecom SIM card is scheduled for deactivation due to incomplete registration. Call <PHONE_NUMBER> to verify now.
+telecom|Great news from OmniCell! You qualify for a free 5G network upgrade. Reserve your new device today at <URL>
+telecom|Alert: We noticed unusual activity on your fiber internet account. Please confirm your identity via <EMAIL_ADDRESS> or risk suspension.
+telecom|Flash Promo: Get double data for the next 3 months on your current plan. Click <URL> to activate this exclusive offer.
+telecom|Your StarNet monthly statement is ready. Avoid late fees by reviewing your bill details online at <URL>
+telecom|Urgent from Apex Mobile: Your cellular service will be suspended in 24 hours. Update your payment method at <URL>
+telecom|Congratulations! You've been randomly selected to receive a complimentary data rollover of 15GB. Tap <URL> to claim.
+telecom|Dear subscriber, your account billing details need verification. Please reach out to our support team at <PHONE_NUMBER>.
+telecom|Notice: Your broadband subscription expires soon. Renew today and get 20% off your next three months: <URL>
+telecom|Attention BlueWave Mobile user: Your line is temporarily restricted. Complete your verification at <URL> to restore access.
+telecom|We tried processing your monthly payment for your data plan without success. Settle your balance at <URL> to keep services active.
+telecom|Exclusive loyalty reward: Upgrade your smartphone for zero dollars today. Check your eligibility at <URL>
+telecom|Your local telecom provider has credited your account with a 5GB data bonus. Activate it now by visiting <URL>
+telecom|Action Required: Your mobile data service is pending restriction due to outdated subscriber records. Call <PHONE_NUMBER>
+telecom|Reminder: Your auto-renewal for your home internet failed. Update your card at <URL> to avoid disconnection.
+telecom|MegaNet Update: Your SIM needs to be upgraded to support new 6G towers. Order your replacement kit at <URL>
+telecom|Your monthly bill of $62.50 is now overdue. Pay promptly using our secure portal: <URL>
+telecom|Urgent alert regarding your PrimeTel account. Immediate action is required to prevent permanent account closure: <URL>
+telecom|Claim your weekend data booster! Enjoy an extra 5GB of streaming data on us. Click <URL> to add it to your line.
+telecom|Your current billing cycle has ended. View your itemized statement and make a payment by visiting <URL>
+telecom|Critical warning: Your SIM card registration has expired. To prevent blockage, contact our helpline at <PHONE_NUMBER>
+telecom|Hello from VeloNet! You have a credit balance waiting. Confirm your details to receive your refund at <URL>
+telecom|Your internet speed has been temporarily throttled due to unpaid charges. Clear your balance now: <URL>
+telecom|Surprise! Here is a free 20GB bonus data pack from your mobile carrier. Redeem yours instantly at <URL>
+telecom|Dear user, your payment method was declined. Please update your billing information via <EMAIL_ADDRESS>
+telecom|Final warning before service termination: Your account has an outstanding balance. Pay immediately at <URL>
+telecom|Get a free storage upgrade and double your data allowance. Offer valid for today only. Visit <URL>
+telecom|Your cellular network access is restricted. Please dial <PHONE_NUMBER> to speak with a representative.
+telecom|Important billing notice from SwiftCom: Your account requires immediate verification to avoid disruption.
+telecom|We detected a failed transaction on your account. Please re-enter your payment details at <URL>
+telecom|Your data allotment has been refreshed with a special loyalty bonus. Check your balance by clicking <URL>
+telecom|Urgent: Confirm your billing address to prevent your fiber optic internet service from being cut off today.
+telecom|Your mobile carrier has applied a promotional discount to your account. See the details at <URL>
+telecom|AeroMobile: Your recent payment failed. To avoid service disconnection today, please update your billing info at <URL>.
+telecom|URGENT: Your NexaTel account is past due by $45.20. Pay now to prevent line suspension: <URL>
+telecom|Hello from OmniCom! You have earned a 10GB loyalty data bonus. Claim yours before midnight: <URL>
+telecom|Your Quantum Mobile SIM card registration is incomplete. Services will cease in 24 hours. Verify here: <URL>
+telecom|Flash deal! Upgrade your current device to the latest 5G smartphone for $0 down. Check eligibility at <URL>
+telecom|Apex Wireless Alert: We noticed an unpaid balance on your account. Settle up immediately to keep your data active.
+telecom|Dear subscriber, your StarNet internet bundle has expired. Renew your plan today to restore high-speed access: <URL>
+telecom|Congratulations! As a valued Zentra Mobile customer, you qualify for a free unlimited data upgrade. Tap <URL>
+telecom|Action required: Your Zenith Telecom bill of $89.50 is overdue. Avoid late fees by paying via <URL>
+telecom|Notice: Your mobile number is scheduled for deactivation due to missing KYC details. Contact support at <PHONE_NUMBER>
+telecom|PrimeConnect rewards you! Click <URL> to claim your complimentary 50GB monthly bonus data pack.
+telecom|Final Reminder: Your fiber optic internet service will be suspended tomorrow unless payment is received at <URL>
+telecom|SwiftPhone update: Your automatic bill payment did not go through. Please resolve this at your earliest convenience.
+telecom|Your device financing agreement qualifies for an early hardware upgrade. Text YES or visit <URL> to explore options.
+telecom|Alert from MetroWave: Unusual billing activity detected. Please confirm your identity and billing address: <URL>
+telecom|Attention VivoTel user: Your prepaid balance is critically low. Top up now using our quick portal: <URL>
+telecom|Your SIM card requires an urgent security update to prevent signal loss. Follow the prompts at <URL>
+telecom|Good news from BlueSky Mobile! You have been selected for a free double data promotion. Activate via <URL>
+telecom|Billing Department: Your monthly statement is ready. View and pay your balance securely at <URL>
+telecom|Critical warning: Your telecommunications account will be locked in 2 hours. Verify your credentials: <URL>
+telecom|Valued Customer, enjoy a free 100GB weekend data boost on us. No action needed, start streaming now!
+telecom|Your Horizon Wireless service is currently restricted. Call our automated payment line at <PHONE_NUMBER> to restore.
+telecom|Special offer from Vibe Telecom: Trade in your old phone for the newest model with zero activation fees. See <URL>
+telecom|Reminder: Your auto-pay method was declined. Update your credit card details at <URL> to avoid interruption.
+prize|URGENT: Your mobile number has been drawn for a brand new smartphone! Claim yours now at <URL>
+prize|Congratulations! You won the weekly cash jackpot of $5000. Text WIN to <PHONE_NUMBER> to process your payout today.
+prize|Hey shopper, you were randomly chosen to get a $500 supermarket voucher. Click <URL> to redeem before midnight.
+prize|Amazing news! Your loyalty points qualified you for a free luxury holiday. Secure your dates at <URL>
+prize|Final notice regarding your unclaimed sweepstakes reward. Call <PHONE_NUMBER> immediately to speak with an agent.
+prize|You have a pending reward from your recent online survey. Transfer your funds instantly via <URL>
+prize|Alert: Your profile was selected for a free designer watch giveaway. Just cover small shipping at <URL>
+prize|You scored top tier in our trivia contest! Collect your $250 gift card by visiting <URL> right now.
+prize|Exclusive invite: Claim your VIP pass and $1000 shopping spree by following <URL>
+prize|You are today's lucky visitor! Spin the wheel at <URL> to win an iPhone or cash.
+prize|Free gas for a year could be yours. Enter our quick draw now at <URL>
+prize|Redeem your anniversary bonus gift card worth $500. Click <URL> to start your claim.
+prize|Your email address won our monthly prize draw. Contact <EMAIL_ADDRESS> to verify your identity and get your cash.
+prize|Congratulations on being selected for our consumer panel test group. Earn $100 per hour at <URL>
+prize|You have won a free ticket to the annual music festival. Claim your pass by texting <PHONE_NUMBER>
+prize|Claim your complimentary electronics bundle today. Quantities are limited, visit <URL>
+prize|Your number was selected in our flash lottery! Call <PHONE_NUMBER> now to claim your $10,000 check.
+prize|Get a $750 hardware store voucher just for completing a 2-minute feedback form at <URL>
+prize|You've unlocked a secret bonus! Tap <URL> to reveal your mystery gift card value.
+prize|Winner alert! Your household is eligible for a brand new 4K TV. Register at <URL>
+prize|You have an unclaimed airline voucher worth $400 expiring today. Secure it at <URL>
+prize|Special reward for loyal customers: Claim your free tablet now by calling <PHONE_NUMBER>
+prize|Your account was randomly chosen to receive a $50 credit. Redeem at <URL>
+prize|Win a dream vacation for two! Enter your code at <URL> to see if your ticket is the winner.
+prize|You earned a reward for participating in our community poll. Collect your cash at <URL>
+prize|Urgent prize notification: Your unclaimed $1200 reward is waiting. Call <PHONE_NUMBER>
+prize|Get your hands on a free designer handbag by taking our short style quiz at <URL>
+prize|Congratulations, you are our millionth browser user! Claim your laptop at <URL>
+prize|You have won a free spa weekend getaway. Confirm your reservation details via <URL>
+prize|Redeem your birthday surprise gift card right now. Follow the secure link <URL>
+prize|Your phone number won our daily cash blitz. Contact our claims office at <PHONE_NUMBER>
+prize|Claim your free home fitness kit today. Just pay nominal shipping at <URL>
+prize|You have been selected to test out our new gaming console for free. Sign up at <URL>
+prize|Your entry into the golden ticket raffle was successful! Check the results at <URL>
+prize|Grab your $300 restaurant voucher before this promotional link expires: <URL>
+prize|You have a reward waiting from our holiday giveaway event. Call <PHONE_NUMBER> to claim
+prize|Free shopping spree winner! Access your digital gift card code instantly at <URL>
+prize|Your feedback earned you a spot in our grand prize draw. Verify your entry at <URL>
+prize|You've been chosen for an exclusive product testing gig paying $500. Details at <URL>
+prize|Congratulations! You won an electric scooter in our weekend raffle. Claim at <URL>
+prize|Your mobile profile qualified for a free streaming service subscription for one year. Activate at <URL>
+prize|Redeem your loyalty reward points for cash today. Contact support at <EMAIL_ADDRESS> to proceed
+prize|You are today's lucky visitor! Claim your brand new smartphone by completing our brief feedback quiz at <URL>
+prize|ZetaCorp Rewards: Your loyalty entry was drawn! You won a luxury holiday package. Call <PHONE_NUMBER> to confirm details.
+prize|Unclaimed Amazon Gift Card worth $500 waiting in your account. Tap <URL> before it expires tonight.
+prize|Flash giveaway alert! You have been selected to receive a free 4K television. Visit <URL> to claim yours now.
+prize|Hey it's Mark. I found this old raffle ticket and we won a cruise! Check out the details here <URL>
+prize|Congratulations, user! Your mobile number was randomly chosen for a $1,000 grocery voucher. Go to <URL>
+prize|Notification from Apex Rewards: Your digital wallet has been credited with a $250 bonus prize. Redeem at <URL>
+prize|You've unlocked a mystery reward box from NovaStores! Open it today at <URL> to see your prize.
+prize|URGENT: Your free vacation voucher is about to expire. Secure your flights by calling <PHONE_NUMBER> immediately.
+prize|Hey! You won our weekly drawing for a designer handbag. Reply WIN to this text to get instructions.
+prize|MegaPrize Club: Your account has a pending cash payout of $5,000. Verify your identity at <URL>
+prize|SURVEY WINNER: Thanks for helping us improve! Claim your $100 coffee card by clicking <URL>
+prize|A luxury smartwatch is reserved for your number. Pay small shipping fee to claim: <URL>
+prize|OmniRewards: You are our 10,000th visitor today! A brand new tablet is yours. Claim via <URL>
+prize|Redeem your complimentary spa weekend getaway pass now. Offer valid for 24 hours only at <URL>
+prize|StarLottery: Your ticket matched three numbers! Call <PHONE_NUMBER> to process your cash winnings.
+prize|Exclusive invite: Join the VIP sweepstakes and win a sports car. Register at <URL>
+prize|You have one unread message regarding a sweepstakes win. Access your inbox at <URL>
+prize|Free gas for a year! That's your prize from our latest motorists poll. Enter your code at <URL>
+prize|Salvation Sweepstakes: You won a kitchen appliance bundle. Contact <PHONE_NUMBER> to schedule delivery.
+prize|Your phone number won a $500 shopping spree at MegaMart. Click <URL> to start shopping.
+prize|Claim your free pair of wireless earbuds today. Just complete a 1-minute survey at <URL>
+prize|Lucky Draw Alert: You've secured a runner-up prize of $750. Send a message to <PHONE_NUMBER> to claim.
+prize|Get a $200 streaming service voucher on us! Available today only. Head over to <URL>
+prize|Congratulations! You've been selected for a test drive reward worth $150. Claim at <URL>
+prize|GlobalSweep: Your name came up in our grand draw! A cash prize awaits. Call <PHONE_NUMBER>
+prize|Redeem your birthday bonus! A $50 gift voucher has been assigned to your mobile number. <URL>
+prize|You earned a free ticket to the annual music festival draw. Check your status at <URL>
+others|Congratulations! You have been pre-approved for a low-interest personal loan of up to $50,000 with no credit check required. Apply today at <URL>
+others|Apex Global Logistics: We are reviewing your resume for the Remote Data Entry position. Please reply with your availability for an online interview via Telegram.
+others|URGENT SECURITY ALERT: We noticed an unauthorized login attempt on your Sterling Bank account. Verify your identity immediately by visiting <URL>
+others|Earn $500 daily working from home simply by liking videos on social media. No experience needed! Contact our hiring manager at <EMAIL_ADDRESS>
+others|Your cloud storage subscription has expired and your files are scheduled for permanent deletion in 24 hours. Restore access now: <URL>
+others|CryptoRewards: Your wallet has accumulated 0.45 BTC in staking dividends. Claim your rewards before they expire by logging in at <URL>
+others|Dear citizen, your Social Security Number has been flagged in connection with illegal financial transactions. Call <PHONE_NUMBER> immediately to avoid arrest.
+others|Global Tech Support: Your computer is broadcasting malicious errors to our network. Call <PHONE_NUMBER> now to speak with a certified technician.
+others|QuickCash Loans: Need cash fast? Get up to $5,000 deposited directly into your bank account within 10 minutes. Zero paperwork at <URL>
+others|Your digital wallet has been locked due to suspicious activity. To unlock your funds, please confirm your seed phrase at <URL>
+others|Work from home opportunity! Earn $35 per hour processing online orders. Limited positions available. Submit your application at <URL>
+others|Notice from Apex Energy: Your power supply will be disconnected in 2 hours due to an unpaid balance. Pay immediately at <URL>
+others|Invest just $200 in our proprietary AI crypto trading bot and watch it grow to $2,000 in just 5 days. Join our Telegram group now.
+others|Your email storage is 99% full. Incoming messages will bounce soon unless you upgrade your mailbox capacity at <URL>
+others|Hello, I am HR manager Sarah from MediaCorp. We reviewed your profile and want to offer you a flexible part-time marketing job paying $30/hr.
+others|FINAL NOTICE: Your vehicle extended warranty has expired. Renew your coverage today to avoid out-of-pocket repair costs by calling <PHONE_NUMBER>
+others|Your parcel is waiting at our sorting facility because the delivery address is incomplete. Update your details to reschedule delivery: <URL>
+others|Win a brand new smartphone! You have been randomly selected as today's lucky winner in our consumer survey. Claim your prize at <URL>
+others|Attention taxpayer: You are eligible for a federal tax refund of $1,420. Submit your banking details securely at <URL>
+others|TechShield Support: We detected a trojan virus on your network router. Contact our helpline at <PHONE_NUMBER> to secure your devices.
+others|Exclusive Bitcoin mining pool invitation! Double your investment in 48 hours guaranteed. Register your account at <URL>
+others|Your mobile banking app requires an immediate security patch to prevent unauthorized access. Update your software version via <URL>
+others|Hiring Now: Data entry clerks needed immediately. Weekly paychecks, flexible hours. Send your resume to <EMAIL_ADDRESS>
+others|Your Netflix membership is on hold because your automatic payment failed. Update your billing information to resume streaming: <URL>
+others|URGENT: Your PayPal account has been limited due to unusual merchant activity. Restore full access by confirming your identity at <URL>
+others|Make money writing reviews for top hotels worldwide. Earn up to $1,000 weekly. Sign up on our portal at <URL>
+others|Your student loan forgiveness application has been approved! Claim your reduced monthly payment plan by calling <PHONE_NUMBER>
+others|Security Advisory: Someone attempted to change your Apple ID password from an unknown device in Russia. If this wasn't you, secure your account at <URL>
+others|Get a guaranteed cash advance of $1,000 instantly with our bad credit loan program. No credit check required. Visit <URL>
+others|Zenith Crypto Exchange: Your KYC verification is pending. Upload your ID document now to prevent account suspension: <URL>
+others|Job Offer: Direct Marketing Assistant. Earn $800 weekly working 5 hours a week. No interview required, start today by emailing <EMAIL_ADDRESS>
+others|Your electric meter reading is overdue. Avoid a hefty penalty fee by submitting your current meter photo and details at <URL>
+others|Alert: Your digital subscription auto-renewal of $199.99 was successful. If you did not authorize this, call support at <PHONE_NUMBER>
+others|Earn passive income through our automated real estate crowdfunding platform. Minimum investment only $50. Get started at <URL>
+others|Dear user, your cloud backup failed 5 times. Your photos and documents are at risk. Protect your data now at <URL>
+others|Microsoft Security Center: Your Windows license has expired. Call our toll-free customer service at <PHONE_NUMBER> to reactivate your system.
+others|Congratulations! Your application for the remote data entry position at NovaCorp has been accepted. Daily pay is $300. Start immediately by filling out your onboarding forms here: <URL>
+others|URGENT: Your Apex Financial account has been temporarily restricted due to unusual login attempts. Verify your identity now to restore full access: <URL>
+others|Hello, this is tech support from CloudNet. We detected malware on your home network IP address. Please call our senior technician immediately at <PHONE_NUMBER> to fix this security issue.
+others|Your pre-approved personal loan of $15,000 from SwiftCash is waiting for disbursement. No credit check required today. Claim your funds instantly at <URL>
+others|Exclusive crypto alert: Our automated trading bot on BitWealth generated a 450% return this week. Deposit $250 now to join the private pool: <URL>
+others|Dear customer, your subscription to PrimeStream was automatically renewed for $129.99. If you did not authorize this, call <PHONE_NUMBER> to cancel and get a full refund.
+others|We are hiring mystery shoppers in your area! Earn $150 per assignment testing local retail stores. Sign up today with no experience necessary by visiting <URL>
+others|Security Notice: We noticed a new sign-in to your SecurePay wallet from an unrecognized device in a foreign country. If this wasn't you, secure your account at <URL>
+others|Hi! I am financial advisor Mark from Apex Investments. I have a guaranteed Bitcoin mining opportunity that yields daily payouts. Message me back to get started.
+others|FINAL NOTICE: Your municipal water service is scheduled for termination today at 5 PM due to an unpaid balance. Pay immediately using our secure portal: <URL>
+others|Work from home as a social media evaluator! Earn up to $25/hour evaluating advertisements. Limited openings available this week. Apply at <URL>
+others|Your cloud storage backup failed multiple times. Your files are at risk of permanent deletion unless you upgrade your storage tier today via <URL>
+others|Greetings from Global Logistics. You have been selected for a part-time package processing job paying $35 an hour. Contact our hiring manager at <EMAIL_ADDRESS> for details.
+others|Alert: A password reset was requested for your OmniBank profile. If you did not make this request, please contact our fraud department at <PHONE_NUMBER> right away.
+others|Double your Ethereum holdings in just 24 hours through our decentralized staking protocol on NovaYield. Connect your Web3 wallet now: <URL>
+others|Your vehicle finance application with MetroMotors was pre-approved with 0% APR. View your custom payment schedule and vehicle options at <URL>
+others|Dear user, your email storage is 99% full and incoming messages will soon bounce. Click here to instantly expand your mailbox capacity: <URL>
+others|Get paid to chat! Join our online customer support team working flexible hours from your phone. Training provided. Apply online at <URL>
+others|WARNING: Your CryptoVault account password was compromised in a recent data breach. Reset your credentials securely using this link: <URL>
+others|Need quick cash for the holidays? Get up to $5,000 deposited into your bank account within 10 minutes. Apply now with zero paperwork at <URL>
+others|Hello from the recruitment team at Vanguard Media. We reviewed your resume online and would like to invite you for a high-paying virtual interview.
+others|Your internet router firmware is severely outdated, leaving your home Wi-Fi vulnerable to hackers. Download the emergency patch now at <URL>
+others|Invest just $100 in our new green energy token and watch your portfolio grow exponentially next month. Join the presale at <URL>
+others|Attention Account Holder: We detected an unauthorized wire transfer originating from your checking account. Call our security hotline at <PHONE_NUMBER> to dispute it.
+family_impersonation|Hey Mum, dropped my phone in a puddle and it's totally dead. Using Sarah's device for now. Can you save my new number <PHONE_NUMBER> and text me back?
+family_impersonation|Dad, I lost my wallet and my phone won't turn on. I'm stuck stranded at the station. Could you wire me fifty bucks via this link <URL> right away?
+family_impersonation|Hi Dad, it's Leo. My old phone broke this morning. Please delete my previous number and save this one. Need a quick favor when you're free.
+family_impersonation|Mum it's Chloe! My phone got stolen at the cafe. I'm messaging from a temporary handset. Please reply to my new number at <PHONE_NUMBER> urgently.
+family_impersonation|Hello mother, my phone screen shattered completely and it won't charge. This is my friend's spare phone. Please text me on <PHONE_NUMBER>.
+family_impersonation|Dad, I'm in a bit of a tight spot. My online banking is locked and my phone is broken. Can you send 200 to my friend's account? Details at <URL>.
+family_impersonation|Mum, smashed my phone screen and the battery is dying fast. Please message my new number <PHONE_NUMBER> so we can keep talking.
+family_impersonation|Hey Mum, lost my phone on the bus ride home. Using a borrowed device. Please shoot me a message on <PHONE_NUMBER> when you see this.
+family_impersonation|Dad it's me. My phone died and I have no charger. I need to pay for my train ticket home. Can you send me some money via <URL>?
+family_impersonation|Mum! My phone fell out of my pocket and got run over by a car. I am so stressed. Text my new number <PHONE_NUMBER> right now please.
+family_impersonation|Hi Dad, Luke here. Had an accident and my phone is smashed to pieces. Reach me on <PHONE_NUMBER> from now on.
+family_impersonation|Mother dearest, my phone went for a swim. Borrowing a colleague's phone to reach out. Please add <PHONE_NUMBER> to your contacts.
+family_impersonation|Dad, my phone broke down and I'm stranded without cash for my hotel. Can you please transfer some funds using <URL>?
+family_impersonation|Hey Mum, my phone battery puffed up and died. Using a loaner phone. Text my new digits at <PHONE_NUMBER> please.
+family_impersonation|Dad it's Sam. My phone is completely dead and I missed my flight. Can you help me cover a new ticket? Check <URL> for payment info.
+family_impersonation|Mum, my phone was stolen out of my bag. This is my new temporary number <PHONE_NUMBER>. Please let dad know too.
+family_impersonation|Hello dad, my phone screen went black and won't turn back on. Please text my new number <PHONE_NUMBER> as soon as possible.
+family_impersonation|Hi Mum, I dropped my phone down the elevator shaft. Total disaster! Save my new number <PHONE_NUMBER> and send me a quick text.
+family_impersonation|Dad, my phone is lost and I need to pay an urgent repair bill. Can you transfer 150 to this account <URL> for me?
+family_impersonation|Mum, my phone crashed and won't boot up. I'm using a kind stranger's phone. Please save <PHONE_NUMBER>.
+family_impersonation|Hey dad, phone is busted. Can you send me some grocery money via <URL> today? Thanks so much.
+family_impersonation|Mum it's me, my phone died and I am locked out of my house. Text my new number <PHONE_NUMBER> so I can call you.
+family_impersonation|Dad, my phone broke at work. Please update my contact info to <PHONE_NUMBER> and delete the old one.
+family_impersonation|Hi Mum, my phone got soaked in the rain and won't switch on. Please text my new number <PHONE_NUMBER> urgently.
+family_impersonation|Dad, I'm stuck abroad and my phone is broken. Need funds for a taxi to the embassy. Details at <URL>.
+family_impersonation|Mum, my phone battery died and I forgot my charger. Messaging from a mate's phone. Text <PHONE_NUMBER> back.
+family_impersonation|Hello dad, my phone screen shattered and it's totally unresponsive. Please message me on <PHONE_NUMBER>.
+family_impersonation|Hey Mum, lost my phone at the gym. Using a temporary phone. Please reach out to <PHONE_NUMBER>.
+family_impersonation|Dad, my phone is dead and I urgently need to pay my rent deposit. Can you send it through <URL>?
+family_impersonation|Mum, phone got crushed in my gym locker. Such a nightmare. Save my new number <PHONE_NUMBER> right away.

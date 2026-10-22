@@ -1,0 +1,14 @@
+You are helping build a research dataset used to test SMS phishing detectors (defensive security research).
+Write 36 DIFFERENT English SMS messages of this phishing/scam type: telecom (mobile or internet bill overdue, SIM suspension, free upgrade, data bonus).
+Rules:
+- Each message is one SMS of about 40 to 300 characters. Vary the length, tone, sender style and wording; do not start many messages the same way.
+- Use fictional sender and brand names only. Never use real brands, real domains, real phone numbers or real people.
+- Where a link would appear, write exactly <URL>. For a phone number write exactly <PHONE_NUMBER>. For an email address write exactly <EMAIL_ADDRESS>. Include such a placeholder in about 60% of the messages and leave it out of the rest.
+- Do not number the messages and add no explanation.
+Human-written examples of this type (for tone only; do not copy or closely paraphrase them):
+- Dear BSNL user your KYC document verification is Pending please call our customer service at
+- Your EE account has temporarily been suspended, to avoid loss of connection confirm your details by checking
+- My3: Your services will be terminated in as we were unable to take payment. Please visit <URL> to avoid termination of services.
+- Dear Customer, Your Vodafone SIM Card KYC Documents Has Been Pending Your SIM Card Will Bee Blocked Within More Enquiry immediately Call Customer Care No.<PHONE_NUMBER>
+- Dear Customer, Thank you for your time you have just spoken to Vodafone executive and our team will be in take care your future requirements for . Please click below link <URL>
+Output format: a JSON array of 36 strings and nothing else.

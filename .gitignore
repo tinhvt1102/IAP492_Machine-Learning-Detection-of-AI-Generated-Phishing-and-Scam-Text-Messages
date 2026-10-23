@@ -1,0 +1,11 @@
+# Models
+models/
+*.safetensors
+*.bin
+*.pt
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/

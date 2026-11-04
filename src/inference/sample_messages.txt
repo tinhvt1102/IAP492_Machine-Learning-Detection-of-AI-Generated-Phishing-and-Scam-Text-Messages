@@ -1,0 +1,9 @@
+# Tin mẫu để chạy thử (mỗi dòng một tin). Tên miền và số điện thoại là dữ liệu giả.
+Your account has been suspended. Verify your identity within 24 hours at https://secure-login.example.com/verify
+Your parcel could not be delivered. Pay the 2.99 redelivery fee here: https://parcel-fee.example.com
+Congratulations! You have won a $1,000 gift card. Call 0906 555 0144 to claim your prize now.
+Hi, it's mum. I lost my phone and this is my new number. Can you send me some money please?
+Are we still meeting for lunch at 1pm tomorrow?
+Running about 10 minutes late, save me a seat?
+Thanks for dinner last night, it was so good. Let's do it again soon!
+Check out this menu https://menu.example.com when you get a chance and let me know what looks good.

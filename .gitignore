@@ -9,3 +9,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
+models/hc3_roberta/
+data/raw/stackexchange/
+
+data/processed/se_human/

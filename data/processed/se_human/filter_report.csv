@@ -1,0 +1,4 @@
+site,questions_total,answers_total,answers_date_ok,answers_score_ok,answers_no_code,answers_length_ok,answers_after_dedup,questions_with_eligible_answer,questions_final_pool,sampled
+cooking,27325,64239,61492,50286,44135,38815,37806,19720,19720,10
+travel,48768,76736,71651,66929,57596,49204,47109,30333,30333,10
+gardening,17860,25421,24011,21764,10595,8981,8719,5568,5568,10

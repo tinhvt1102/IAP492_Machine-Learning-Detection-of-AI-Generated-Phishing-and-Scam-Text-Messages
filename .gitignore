@@ -1,15 +1,8 @@
-# Models
-models/
-*.safetensors
-*.bin
-*.pt
-
 # Python bytecode & cache
 __pycache__/
 *.py[cod]
 *$py.class
 .pytest_cache/
-models/hc3_roberta/
-data/raw/stackexchange/
 
-data/processed/se_human/
+# Large raw data
+data/raw/stackexchange/
